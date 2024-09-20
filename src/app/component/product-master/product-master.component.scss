@@ -1,0 +1,89 @@
+.backgroundimage {
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+  left: 4.45px;
+  top: 0px;
+  background: url("https://plus.unsplash.com/premium_photo-1704539395750-6d3ab4481521?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  transform: rotate(0.25deg);
+}
+
+/* navbar */
+.navbar {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1343px;
+  height: 88px;
+  left: 57.29px;
+  top: 35.23px;
+  background: linear-gradient(
+    90deg,
+    rgba(207, 202, 202, 0.63) 0%,
+    rgba(255, 255, 255, 0.63) 100%
+  );
+  backdrop-filter: blur(2px);
+  border-radius: 43px;
+  transform: rotate(0.25deg);
+}
+
+.inputformcontainer {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1394px;
+  height: 850px;
+  left: 27.22px;
+  top: 151.12px;
+  background: rgba(64, 59, 59, 0.5);
+  mix-blend-mode: color-burn;
+  backdrop-filter: blur(2px);
+  border-radius: 32px;
+  padding: 20px; /* add some padding to the container */
+}
+
+/* input form styles */
+.inputformcontainer form {
+  width: 100%; /* make the form full width */
+  height: 100%; /* make the form full height */
+  display: flex; /* make it a flex container */
+  flex-direction: column; /* stack the elements vertically */
+  align-items: center; /* center the elements horizontally */
+  padding: 20px; /* add some padding to the form */
+}
+
+.inputformcontainer .header {
+  width: 100%; /* make the header full width */
+  background-color: #f0f0f0; /* add a background color */
+  padding: 20px; /* add some padding to the header */
+  text-align: center; /* center the header text */
+}
+
+.inputformcontainer .left-column,
+.inputformcontainer .right-column {
+  flex: 1; /* make both columns equal width */
+  padding: 20px; /* add some padding to the columns */
+}
+
+.inputformcontainer .left-column {
+  margin-right: 20px; /* add a margin between the columns */
+}
+
+.inputformcontainer .right-column {
+  margin-left: 20px; /* add a margin between the columns */
+}
+
+.inputformcontainer .features-section,
+.inputformcontainer .images-section,
+.inputformcontainer .reviews-section {
+  margin-bottom: 40px; /* add some margin between sections */
+}
+
+.inputformcontainer .features-section h2,
+.inputformcontainer .images-section h2,
+.inputformcontainer .reviews-section h2 {
+  margin-top: 0; /* remove the margin top from the section headings */
+}
+
+.inputformcontainer .submit-btn {
+  text-align: center; /* center the submit button */
+  margin-top: 40px; /* add some margin above the submit button */
+}

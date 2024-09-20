@@ -1,0 +1,257 @@
+<!-- <div class="backgroundimage">
+  <div class="navbar">...</div>
+  <div class="inputformcontainer">
+    <form>
+      <div class="header">
+        <h1>Product Form</h1>
+      </div>
+      <div class="left-column">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            [(ngModel)]="product.name"
+            name="name"
+            placeholder="Product Name"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="brand">Brand:</label>
+          <input
+            type="text"
+            id="brand"
+            [(ngModel)]="product.brand"
+            name="brand"
+            placeholder="Brand Name"
+          />
+        </div>
+      </div>
+
+      <div class="right-column">
+        <div class="features-section">
+          <h2>Features:</h2>
+          <div *ngFor="let feature of product.features; let i = index">
+            <input
+              type="text"
+              [(ngModel)]="product.features[i]"
+              name="feature{{ i }}"
+              placeholder="Feature"
+            />
+            <button type="button" (click)="removeFeature(i)">Remove</button>
+          </div>
+          <button type="button" (click)="addFeature()">Add Feature</button>
+        </div>
+
+        <div class="images-section">
+          <h2>Images:</h2>
+          <div *ngFor="let image of product.images; let i = index">
+            <input
+              type="text"
+              [(ngModel)]="product.images[i]"
+              name="image{{ i }}"
+              placeholder="Image URL"
+            />
+            <button type="button" (click)="removeImage(i)">Remove</button>
+          </div>
+          <button type="button" (click)="addImage()">Add Image</button>
+        </div>
+
+        <div class="reviews-section">
+          <h2>Reviews:</h2>
+          <div *ngFor="let review of product.reviews; let i = index">
+            <div class="form-group">
+              <label for="user{{ i }}">User:</label>
+              <input
+                type="text"
+                id="user{{ i }}"
+                [(ngModel)]="product.reviews[i].user"
+                name="user{{ i }}"
+                placeholder="User Name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="rating{{ i }}">Rating:</label>
+              <input
+                type="number"
+                id="rating{{ i }}"
+                [(ngModel)]="product.reviews[i].rating"
+                name="rating{{ i }}"
+                placeholder="Rating"
+              />
+            </div>
+            <div class="form-group">
+              <label for="comment{{ i }}">Comment:</label>
+              <input
+                type="text"
+                id="comment{{ i }}"
+                [(ngModel)]="product.reviews[i].comment"
+                name="comment{{ i }}"
+                placeholder="Comment"
+              />
+            </div>
+            <div class="form-group">
+              <label for="date{{ i }}">Date:</label>
+              <input
+                type="date"
+                id="date{{ i }}"
+                [(ngModel)]="product.reviews[i].date"
+                name="date{{ i }}"
+              />
+            </div>
+            <button type="button" (click)="removeReview(i)">
+              Remove Review
+            </button>
+          </div>
+          <button type="button" (click)="addReview()">Add Review</button>
+        </div>
+      </div>
+
+      <div class="submit-btn">
+        <button type="submit" (click)="onSubmit()">Submit</button>
+      </div>
+    </form>
+  </div>
+</div> -->
+<div class="bg-white p-6 rounded-lg shadow-lg">
+  <h2 class="text-2xl font-semibold mb-4">Product Form</h2>
+
+  <!-- Left Column -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div>
+      <label for="name" class="block text-gray-700">Name:</label>
+      <input
+        type="text"
+        class="w-full mt-2 p-2 border rounded-lg"
+        id="name"
+        [(ngModel)]="product.name"
+        placeholder="Product Name"
+      />
+    </div>
+
+    <div>
+      <label for="brand" class="block text-gray-700">Brand:</label>
+      <input
+        type="text"
+        class="w-full mt-2 p-2 border rounded-lg"
+        id="brand"
+        [(ngModel)]="product.brand"
+        placeholder="Brand Name"
+      />
+    </div>
+
+    <!-- Features Section -->
+    <div class="col-span-2">
+      <h3 class="text-xl font-semibold mb-2">Features</h3>
+      <div
+        *ngFor="let feature of product.features; let i = index"
+        class="mb-2 flex"
+      >
+        <input
+          type="text"
+          class="w-full p-2 border rounded-lg"
+          [(ngModel)]="product.features[i]"
+          placeholder="Feature"
+        />
+        <button
+          type="button"
+          (click)="removeFeature(i)"
+          class="ml-2 bg-red-500 text-white p-2 rounded-lg"
+        >
+          Remove
+        </button>
+      </div>
+      <button
+        type="button"
+        (click)="addFeature()"
+        class="bg-green-500 text-white p-2 rounded-lg"
+      >
+        Add Feature
+      </button>
+    </div>
+
+    <!-- Images Section -->
+    <div class="col-span-2">
+      <h3 class="text-xl font-semibold mb-2">Images</h3>
+      <div
+        *ngFor="let image of product.images; let i = index"
+        class="mb-2 flex"
+      >
+        <input
+          type="text"
+          class="w-full p-2 border rounded-lg"
+          [(ngModel)]="product.images[i]"
+          placeholder="Image URL"
+        />
+        <button
+          type="button"
+          (click)="removeImage(i)"
+          class="ml-2 bg-red-500 text-white p-2 rounded-lg"
+        >
+          Remove
+        </button>
+      </div>
+      <button
+        type="button"
+        (click)="addImage()"
+        class="bg-green-500 text-white p-2 rounded-lg"
+      >
+        Add Image
+      </button>
+    </div>
+
+    <!-- Reviews Section -->
+    <div class="col-span-2">
+      <h3 class="text-xl font-semibold mb-2">Reviews</h3>
+      <div *ngFor="let review of product.reviews; let i = index" class="mb-2">
+        <div class="flex">
+          <input
+            type="text"
+            class="w-full p-2 border rounded-lg"
+            [(ngModel)]="product.reviews[i].user"
+            placeholder="User Name"
+          />
+          <input
+            type="number"
+            class="w-full p-2 border rounded-lg ml-2"
+            [(ngModel)]="product.reviews[i].rating"
+            placeholder="Rating"
+          />
+          <input
+            type="text"
+            class="w-full p-2 border rounded-lg ml-2"
+            [(ngModel)]="product.reviews[i].comment"
+            placeholder="Comment"
+          />
+          <input
+            type="date"
+            class="w-full p-2 border rounded-lg ml-2"
+            [(ngModel)]="product.reviews[i].date"
+          />
+        </div>
+        <button
+          type="button"
+          (click)="removeReview(i)"
+          class="bg-red-500 text-white p-2 rounded-lg mt-2"
+        >
+          Remove Review
+        </button>
+      </div>
+      <button
+        type="button"
+        (click)="addReview()"
+        class="bg-green-500 text-white p-2 rounded-lg"
+      >
+        Add Review
+      </button>
+    </div>
+  </div>
+
+  <!-- Submit Button -->
+  <div class="mt-6">
+    <button class="bg-blue-500 text-white p-4 rounded-lg" (click)="onSubmit()">
+      Submit
+    </button>
+  </div>
+</div>

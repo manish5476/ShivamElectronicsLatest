@@ -1,0 +1,64 @@
+<div class="flex h-screen">
+  <!-- Sidebar -->
+  <div class="w-64 bg-purple-700 text-white flex flex-col">
+    <div
+      class="flex items-center justify-center h-16 border-b border-purple-800"
+    >
+      <i class="fas fa-cube text-3xl"></i>
+    </div>
+    <div class="flex-1 overflow-y-auto">
+      <nav class="mt-10">
+        <a class="flex items-center py-2 px-6 bg-purple-800" routerLink="/">
+          <i class="fas fa-home"></i>
+          <span class="mx-3">Dashboard</span>
+        </a>
+        <a class="flex items-center py-2 px-6" routerLink="/bookmarks">
+          <i class="fas fa-bookmark"></i>
+          <span class="mx-3">Bookmarks</span>
+          <span
+            class="ml-auto bg-blue-500 text-xs text-white rounded-full h-6 w-6 flex items-center justify-center"
+            >3</span
+          >
+        </a>
+        <a class="flex items-center py-2 px-6" routerLink="/team">
+          <i class="fas fa-users"></i>
+          <span class="mx-3">Team</span>
+        </a>
+        <!-- More sidebar items -->
+      </nav>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="flex-1 flex flex-col">
+    <header
+      class="flex items-center justify-between h-16 px-6 bg-white border-b border-gray-200"
+    >
+      <div class="flex items-center">
+        <input
+          class="px-4 py-2 border rounded-lg"
+          placeholder="Search"
+          type="text"
+        />
+      </div>
+      <div class="flex items-center">
+        <button class="px-4 py-2 bg-purple-100 text-purple-700 rounded-lg">
+          Preview
+        </button>
+        <button class="ml-4 px-4 py-2 bg-white border rounded-lg">Code</button>
+        <i class="fas fa-bell ml-6 text-gray-600"></i>
+        <img
+          alt="User Avatar"
+          class="ml-6 rounded-full w-10 h-10"
+          src="https://your-avatar-image-url"
+          width="40"
+        />
+      </div>
+    </header>
+
+    <!-- Main form content -->
+    <main class="flex-1 overflow-y-auto p-6">
+      <app-product-master></app-product-master>
+    </main>
+  </div>
+</div>
