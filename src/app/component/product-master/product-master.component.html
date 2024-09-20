@@ -1,3 +1,107 @@
+<div class="container">
+  <!-- <div class="header"></div> -->
+  <div class="form-group">
+    <p-floatLabel>
+      <input pInputText id="productname" [(ngModel)]="product.name" />
+      <label for="username">Product Name</label>
+    </p-floatLabel>
+
+    <p-floatLabel>
+      <input pInputText id="brand" [(ngModel)]="product.brand" />
+      <label for="username">Brand</label>
+    </p-floatLabel>
+  </div>
+  <!--  -->
+  <div
+    class="form-group"
+    *ngFor="let feature of product.features; let i = index"
+  >
+    <p-floatLabel>
+      <input pInputText id="feature" [(ngModel)]="product.features[i]" />
+      <label for="username">feature[i]</label>
+    </p-floatLabel>
+    <p-button
+      label="Rem-Feat"
+      (click)="removeFeature(i)"
+      [outlined]="true"
+      severity="warning"
+    />
+  </div>
+  <p-button
+    label="Add-Feat"
+    (click)="addFeature()"
+    [outlined]="true"
+    severity="success"
+  />
+
+  <!--  -->
+  <div class="form-group" *ngFor="let image of product.images; let i = index">
+    <p-floatLabel>
+      <input pInputText id="feature" [(ngModel)]="product.images[i]" />
+      <label for="username">images[i]</label>
+    </p-floatLabel>
+    <p-button
+      label="Rem-Img"
+      (click)="removeImage(i)"
+      [outlined]="true"
+      severity="warning"
+    />
+  </div>
+  <p-button
+    label="Add-Img"
+    (click)="addImage()"
+    [outlined]="true"
+    severity="success"
+  />
+
+  <!--  -->
+  <div class="form-group" *ngFor="let review of product.reviews; let i = index">
+    <p-floatLabel>
+      <input pInputText id="feature" [(ngModel)]="product.reviews[i].user" />
+      <label for="username">review[i]</label>
+    </p-floatLabel>
+    <p-floatLabel>
+      <input pInputText id="feature" [(ngModel)]="product.reviews[i].rating" />
+      <label for="username">rating[i]</label>
+    </p-floatLabel>
+    <p-floatLabel>
+      <input pInputText id="feature" [(ngModel)]="product.reviews[i].comment" />
+      <label for="username">comment[i]</label>
+    </p-floatLabel>
+    <p-floatLabel>
+      <input pInputText id="feature" [(ngModel)]="product.reviews[i].date" />
+      <label for="username">date[i]</label>
+    </p-floatLabel>
+    <p-button
+      label="Rem-Review"
+      (click)="removeReview(i)"
+      [outlined]="true"
+      severity="warning"
+    />
+  </div>
+  <p-button
+    label="Add-Review"
+    (click)="addReview()"
+    [outlined]="true"
+    severity="success"
+  />
+  <!--  -->
+
+  <div class="form-group">
+    <div class="image-placeholder"></div>
+  </div>
+  <div class="form-group">
+    <p-button
+      label="Submit"
+      (click)="onSubmit()"
+      [text]="true"
+      [raised]="true"
+      severity="success"
+    />
+  </div>
+</div>
+
+<!-- </html> -->
 <!-- <div class="backgroundimage">
   <div class="navbar">...</div>
   <div class="inputformcontainer">
@@ -114,10 +218,9 @@
     </form>
   </div>
 </div> -->
-<div class="bg-white p-6 rounded-lg shadow-lg">
+<!-- <div class="bg-white p-6 rounded-lg shadow-lg">
   <h2 class="text-2xl font-semibold mb-4">Product Form</h2>
 
-  <!-- Left Column -->
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     <div>
       <label for="name" class="block text-gray-700">Name:</label>
@@ -141,7 +244,6 @@
       />
     </div>
 
-    <!-- Features Section -->
     <div class="col-span-2">
       <h3 class="text-xl font-semibold mb-2">Features</h3>
       <div
@@ -171,7 +273,6 @@
       </button>
     </div>
 
-    <!-- Images Section -->
     <div class="col-span-2">
       <h3 class="text-xl font-semibold mb-2">Images</h3>
       <div
@@ -201,7 +302,6 @@
       </button>
     </div>
 
-    <!-- Reviews Section -->
     <div class="col-span-2">
       <h3 class="text-xl font-semibold mb-2">Reviews</h3>
       <div *ngFor="let review of product.reviews; let i = index" class="mb-2">
@@ -248,10 +348,11 @@
     </div>
   </div>
 
-  <!-- Submit Button -->
+ 
   <div class="mt-6">
     <button class="bg-blue-500 text-white p-4 rounded-lg" (click)="onSubmit()">
       Submit
     </button>
   </div>
-</div>
+</div> -->
+<!--  -->

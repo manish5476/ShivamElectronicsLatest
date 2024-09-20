@@ -1,89 +1,111 @@
-.backgroundimage {
-  position: absolute;
-  width: 1440px;
-  height: 1024px;
-  left: 4.45px;
-  top: 0px;
+/* Body Background */
+body {
   background: url("https://plus.unsplash.com/premium_photo-1704539395750-6d3ab4481521?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-  transform: rotate(0.25deg);
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-/* navbar */
-.navbar {
-  box-sizing: border-box;
-  position: absolute;
-  width: 1343px;
-  height: 88px;
-  left: 57.29px;
-  top: 35.23px;
-  background: linear-gradient(
-    90deg,
-    rgba(207, 202, 202, 0.63) 0%,
-    rgba(255, 255, 255, 0.63) 100%
-  );
-  backdrop-filter: blur(2px);
-  border-radius: 43px;
-  transform: rotate(0.25deg);
+/* Container with Blur Effect */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px); /* Blurs the background behind the container */
+  border: 1px solid rgba(255, 255, 255, 0.5); /* Optional border for a glass effect */
 }
 
-.inputformcontainer {
-  box-sizing: border-box;
-  position: absolute;
-  width: 1394px;
-  height: 850px;
-  left: 27.22px;
-  top: 151.12px;
-  background: rgba(64, 59, 59, 0.5);
-  mix-blend-mode: color-burn;
-  backdrop-filter: blur(2px);
-  border-radius: 32px;
-  padding: 20px; /* add some padding to the container */
+/* Header */
+.header {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
-/* input form styles */
-.inputformcontainer form {
-  width: 100%; /* make the form full width */
-  height: 100%; /* make the form full height */
-  display: flex; /* make it a flex container */
-  flex-direction: column; /* stack the elements vertically */
-  align-items: center; /* center the elements horizontally */
-  padding: 20px; /* add some padding to the form */
+/* Form Group */
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
-.inputformcontainer .header {
-  width: 100%; /* make the header full width */
-  background-color: #f0f0f0; /* add a background color */
-  padding: 20px; /* add some padding to the header */
-  text-align: center; /* center the header text */
+/* Input Fields and Labels Styling */
+.form-group p-floatLabel {
+  width: 45%;
+  padding: 10px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px); /* Optional blur effect to background elements */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Slightly transparent input background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
-.inputformcontainer .left-column,
-.inputformcontainer .right-column {
-  flex: 1; /* make both columns equal width */
-  padding: 20px; /* add some padding to the columns */
+.form-group label {
+  color: #333;
 }
 
-.inputformcontainer .left-column {
-  margin-right: 20px; /* add a margin between the columns */
+/* Image Placeholder */
+.image-placeholder {
+  width: 45%;
+  height: 200px;
+  background: url("https://plus.unsplash.com/premium_photo-1704539395750-6d3ab4481521?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
 }
 
-.inputformcontainer .right-column {
-  margin-left: 20px; /* add a margin between the columns */
+/* Buttons */
+p-button {
+  margin: 10px 0;
+  backdrop-filter: blur(5px); /* Slight blur for buttons */
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
-.inputformcontainer .features-section,
-.inputformcontainer .images-section,
-.inputformcontainer .reviews-section {
-  margin-bottom: 40px; /* add some margin between sections */
+p-button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
-.inputformcontainer .features-section h2,
-.inputformcontainer .images-section h2,
-.inputformcontainer .reviews-section h2 {
-  margin-top: 0; /* remove the margin top from the section headings */
+/* Additional Styles for Sections */
+.features-section,
+.images-section,
+.reviews-section {
+  margin-bottom: 40px;
 }
 
-.inputformcontainer .submit-btn {
-  text-align: center; /* center the submit button */
-  margin-top: 40px; /* add some margin above the submit button */
+.submit-btn {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Input Fields General Style */
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Input background slightly transparent */
 }
