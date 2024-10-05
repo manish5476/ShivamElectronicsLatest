@@ -1,0 +1,17 @@
+<div class="glass-morphism-card"></div>
+<div class="card-content">
+  <div class="left-section">
+    <p>Time: {{ currentTime | date : "shortTime" }}</p>
+  </div>
+  <div class="right-section">
+    <p>Days left in New Year: {{ daysLeftInNewYear }}</p>
+  </div>
+  <div class="input-section">
+    <input
+      type="text"
+      [(ngModel)]="dailyActivity"
+      placeholder="Enter activity for today"
+    />
+    <button (click)="saveDailyActivity()">Save</button>
+  </div>
+</div>

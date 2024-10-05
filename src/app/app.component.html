@@ -1,51 +1,7 @@
-<div class="layout-container">
-  <!-- Sidebar -->
-  <div class="sidebar">
-    <div class="sidebar-header">
-      <i class="fas fa-cube"></i>
-    </div>
-    <div class="sidebar-content">
-      <nav>
-        <a href="/" class="nav-link active">
-          <i class="fas fa-home"></i>
-          <span>Dashboard</span>
-        </a>
-        <a href="/bookmarks" class="nav-link">
-          <i class="fas fa-bookmark"></i>
-          <span>Bookmarks</span>
-          <span class="notification-badge">3</span>
-        </a>
-        <a href="/team" class="nav-link">
-          <i class="fas fa-users"></i>
-          <span>Team</span>
-        </a>
-        <!-- More sidebar items -->
-      </nav>
-    </div>
-  </div>
-
-  <!-- Main Content -->
-  <div class="main-content">
-    <header class="main-header">
-      <div class="search-container">
-        <input type="text" placeholder="Search" class="search-input" />
-      </div>
-      <div class="header-actions">
-        <button class="btn preview-btn">Preview</button>
-        <button class="btn code-btn">Code</button>
-        <i class="fas fa-bell"></i>
-        <img
-          alt="User Avatar"
-          class="user-avatar"
-          src="https://your-avatar-image-url"
-          width="40"
-        />
-      </div>
-    </header>
-
-    <!-- Main form content -->
-    <main class="content-body">
-      <app-product-master></app-product-master>
-    </main>
-  </div>
-</div>
+<!-- Main form content -->
+<main class="content-body">
+  <!-- <app-navbar></app-navbar> -->
+  <!-- <app-product-detai-view></app-product-detai-view> -->
+  <app-product-master></app-product-master>
+</main>
+<router-outlet></router-outlet>

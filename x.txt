@@ -1,0 +1,2670 @@
+  <app-breadcrumb class="content-breadcrumb"
+    ><div class="layout-breadcrumb flex align-items-center relative h-3rem">
+      <nav>
+        <ol class="relative z-2">
+          <li class="ng-star-inserted">Apps</li>
+          <li class="layout-breadcrumb-chevron ng-star-inserted">/</li>
+          <!---->
+          <li class="ng-star-inserted">Calendar</li>
+          <!----><!---->
+        </ol>
+      </nav>
+      <ul
+        class="breadcrumb-menu flex align-items-center justify-content-end lg:hidden absolute right-0 top-0 z-4 h-3rem w-screen"
+      >
+        <li class="w-full m-0 ml-3">
+          <div class="breadcrumb-search flex justify-content-end">
+            <button
+              pbutton=""
+              icon="pi pi-search"
+              type="button"
+              class="p-element breadcrumb-searchbutton p-button-text p-button-secondary text-color-secondary p-button-rounded flex-shrink-0 p-button p-component p-button-icon-only"
+            >
+              <span
+                class="p-button-icon pi pi-search"
+                aria-hidden="true"
+              ></span>
+            </button>
+            <div class="search-input-wrapper">
+              <span class="p-input-icon-right"
+                ><input
+                  type="text"
+                  pinputtext=""
+                  placeholder="Search"
+                  class="p-inputtext p-component p-element" /><i
+                  class="pi pi-search"
+                ></i
+              ></span>
+            </div>
+          </div>
+        </li>
+        <li class="right-panel-button relative">
+          <button
+            pbutton=""
+            type="button"
+            label="Today"
+            icon="pi pi-bookmark"
+            styleclass="font-normal"
+            class="p-element layout-rightmenu-button hidden md:block font-normal p-button p-component"
+            style="width: 5.7rem"
+          >
+            <span
+              class="p-button-icon p-button-icon-left pi pi-bookmark"
+              aria-hidden="true"
+            ></span
+            ><span class="p-button-label">Today</span></button
+          ><button
+            pbutton=""
+            type="button"
+            icon="pi pi-bookmark"
+            styleclass="font-normal"
+            class="p-element layout-rightmenu-button flex md:hidden p-button p-component p-button-icon-only"
+          >
+            <span
+              class="p-button-icon pi pi-bookmark"
+              aria-hidden="true"
+            ></span>
+          </button>
+        </li>
+      </ul></div
+  ></app-breadcrumb>
+  <app-breadcrumb class="topbar-breadcrumb"
+          ><div
+            class="layout-breadcrumb flex align-items-center relative h-3rem"
+          >
+            <nav>
+              <ol class="relative z-2">
+                <li class="ng-star-inserted">Apps</li>
+                <li class="layout-breadcrumb-chevron ng-star-inserted">/</li>
+                <!---->
+                <li class="ng-star-inserted">Calendar</li>
+                <!----><!---->
+              </ol>
+            </nav>
+            <ul
+              class="breadcrumb-menu flex align-items-center justify-content-end lg:hidden absolute right-0 top-0 z-4 h-3rem w-screen"
+            >
+              <li class="w-full m-0 ml-3">
+                <div class="breadcrumb-search flex justify-content-end">
+                  <button
+                    pbutton=""
+                    icon="pi pi-search"
+                    type="button"
+                    class="p-element breadcrumb-searchbutton p-button-text p-button-secondary text-color-secondary p-button-rounded flex-shrink-0 p-button p-component p-button-icon-only"
+                  >
+                    <span
+                      class="p-button-icon pi pi-search"
+                      aria-hidden="true"
+                    ></span>
+                  </button>
+                  <div class="search-input-wrapper">
+                    <span class="p-input-icon-right"
+                      ><input
+                        type="text"
+                        pinputtext=""
+                        placeholder="Search"
+                        class="p-inputtext p-component p-element" /><i
+                        class="pi pi-search"
+                      ></i
+                    ></span>
+                  </div>
+                </div>
+              </li>
+              <li class="right-panel-button relative">
+                <button
+                  pbutton=""
+                  type="button"
+                  label="Today"
+                  icon="pi pi-bookmark"
+                  styleclass="font-normal"
+                  class="p-element layout-rightmenu-button hidden md:block font-normal p-button p-component"
+                  style="width: 5.7rem"
+                >
+                  <span
+                    class="p-button-icon p-button-icon-left pi pi-bookmark"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="p-button-label">Today</span></button
+                ><button
+                  pbutton=""
+                  type="button"
+                  icon="pi pi-bookmark"
+                  styleclass="font-normal"
+                  class="p-element layout-rightmenu-button flex md:hidden p-button p-component p-button-icon-only"
+                >
+                  <span
+                    class="p-button-icon pi pi-bookmark"
+                    aria-hidden="true"
+                  ></span>
+                </button>
+              </li>
+            </ul></div
+        ></app-breadcrumb>
+        /////////////////////////////////////////manish///////////////////
+        <!-- <div class="container">
+  <div class="header">
+    <nav class="navbar">
+      <a href="/" class="nav-link active">
+        <i class="fas fa-home"></i>
+        <span>Dashboard</span>
+      </a>
+      <a href="/bookmarks" class="nav-link">
+        <i class="fas fa-bookmark"></i>
+        <span>Bookmarks</span>
+        <span class="notification-badge">3</span>
+      </a>
+      <a href="/team" class="nav-link">
+        <i class="fas fa-users"></i>
+        <span>Team</span>
+      </a>
+    </nav>
+
+    <div class="header-actions">
+      <input type="text" placeholder="Search" class="search-input" />
+      <button class="btn preview-btn">Preview</button>
+      <button class="btn code-btn">Code</button>
+      <i class="fas fa-bell"></i>
+      <img
+        alt="User Avatar"
+        class="user-avatar"
+        src="https://your-avatar-image-url"
+        width="40"
+      />
+    </div>
+  </div>
+
+  <div class="content-body">
+  </div>
+</div> -->
+<div class="layout-content-wrapper">
+  
+<div class="layout-topbar">
+      <div class="topbar-start">
+        <button type="button" class="topbar-menubutton p-link p-trigger">
+          <i class="pi pi-bars"></i></button
+        >
+      </div>
+      <div class="layout-topbar-menu-section">
+        <app-sidebar
+          ><div class="layout-sidebar">
+            <div class="sidebar-header">
+              <a class="app-logo" href="/"
+                ><div class="app-logo-small h-2rem">
+                  <img src="assets/layout/images/logo-light.png" />
+                </div>
+                <div class="app-logo-normal">
+                  <img
+                    class="h-2rem"
+                    src="assets/layout/images/logo-light.png"
+                  /><img
+                    class="h-2rem ml-3"
+                    src="assets/layout/images/appname-light.png"
+                  /></div></a
+              ><button
+                type="button"
+                class="layout-sidebar-anchor p-link z-2"
+              ></button>
+            </div>
+            <div class="layout-menu-container">
+              <app-menu
+                ><ul class="layout-menu">
+                  <li
+                    app-menuitem=""
+                    class="ng-tns-c2000835034-10 layout-root-menuitem ng-star-inserted"
+                  >
+                    <div
+                      class="layout-menuitem-root-text ng-tns-c2000835034-10 ng-star-inserted"
+                    >
+                      Dashboards
+                    </div>
+                    <!----><a
+                      tabindex="0"
+                      pripple=""
+                      class="p-element p-ripple ng-tns-c2000835034-10 ng-star-inserted"
+                      ><i
+                        class="layout-menuitem-icon ng-tns-c2000835034-10 pi pi-home"
+                      ></i
+                      ><span class="layout-menuitem-text ng-tns-c2000835034-10"
+                        >Dashboards</span
+                      ><i
+                        class="pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c2000835034-10 ng-star-inserted"
+                      ></i
+                      ><!----><span
+                        class="p-ink ng-tns-c2000835034-10"
+                        aria-hidden="true"
+                        role="presentation"
+                      ></span></a
+                    ><!----><!----><!---->
+                    <ul
+                      class="ng-trigger ng-trigger-children ng-tns-c2000835034-10 ng-star-inserted"
+                    >
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-11 ng-tns-c2000835034-10 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-11 ng-star-inserted"
+                          href="/"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-11 pi pi-fw pi-home"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-11"
+                            >E-Commerce</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-11"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <!---->
+                    </ul>
+                    <!----><!---->
+                  </li>
+                  <!----><!----><!---->
+                  <li
+                    app-menuitem=""
+                    class="ng-tns-c2000835034-12 layout-root-menuitem ng-star-inserted"
+                  >
+                    <div
+                      class="layout-menuitem-root-text ng-tns-c2000835034-12 ng-star-inserted"
+                    >
+                      Apps
+                    </div>
+                    <!----><a
+                      tabindex="0"
+                      pripple=""
+                      class="p-element p-ripple ng-tns-c2000835034-12 ng-star-inserted"
+                      ><i
+                        class="layout-menuitem-icon ng-tns-c2000835034-12 pi pi-th-large"
+                      ></i
+                      ><span class="layout-menuitem-text ng-tns-c2000835034-12"
+                        >Apps</span
+                      ><i
+                        class="pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c2000835034-12 ng-star-inserted"
+                      ></i
+                      ><!----><span
+                        class="p-ink ng-tns-c2000835034-12"
+                        aria-hidden="true"
+                        role="presentation"
+                      ></span></a
+                    ><!----><!----><!---->
+                    <ul
+                      class="ng-trigger ng-trigger-children ng-tns-c2000835034-12 ng-star-inserted"
+                    >
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-13 ng-tns-c2000835034-12 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><a
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-13 ng-star-inserted"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-13 pi pi-fw pi-comment"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-13"
+                            >Blog</span
+                          ><i
+                            class="pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c2000835034-13 ng-star-inserted"
+                          ></i
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-13"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!---->
+                        <ul
+                          class="ng-trigger ng-trigger-children ng-tns-c2000835034-13 ng-star-inserted"
+                          style="height: 0px"
+                        >
+                          <li
+                            app-menuitem=""
+                            class="ng-tns-c2000835034-20 ng-tns-c2000835034-13 ng-star-inserted"
+                            style=""
+                          >
+                            <!----><!----><a
+                              routerlinkactive="active-route"
+                              tabindex="0"
+                              pripple=""
+                              class="p-element p-ripple ng-tns-c2000835034-20 ng-star-inserted"
+                              href="/apps/blog/list"
+                              ><i
+                                class="layout-menuitem-icon ng-tns-c2000835034-20 pi pi-fw pi-image"
+                              ></i
+                              ><span
+                                class="layout-menuitem-text ng-tns-c2000835034-20"
+                                >List</span
+                              ><!----><span
+                                class="p-ink ng-tns-c2000835034-20"
+                                aria-hidden="true"
+                                role="presentation"
+                              ></span></a
+                            ><!----><!----><!----><!---->
+                          </li>
+                          <li
+                            app-menuitem=""
+                            class="ng-tns-c2000835034-21 ng-tns-c2000835034-13 ng-star-inserted"
+                            style=""
+                          >
+                            <!----><!----><a
+                              routerlinkactive="active-route"
+                              tabindex="0"
+                              pripple=""
+                              class="p-element p-ripple ng-tns-c2000835034-21 ng-star-inserted"
+                              href="/apps/blog/detail"
+                              ><i
+                                class="layout-menuitem-icon ng-tns-c2000835034-21 pi pi-fw pi-list"
+                              ></i
+                              ><span
+                                class="layout-menuitem-text ng-tns-c2000835034-21"
+                                >Detail</span
+                              ><!----><span
+                                class="p-ink ng-tns-c2000835034-21"
+                                aria-hidden="true"
+                                role="presentation"
+                              ></span></a
+                            ><!----><!----><!----><!---->
+                          </li>
+                          <li
+                            app-menuitem=""
+                            class="ng-tns-c2000835034-22 ng-tns-c2000835034-13 ng-star-inserted"
+                            style=""
+                          >
+                            <!----><!----><a
+                              routerlinkactive="active-route"
+                              tabindex="0"
+                              pripple=""
+                              class="p-element p-ripple ng-tns-c2000835034-22 ng-star-inserted"
+                              href="/apps/blog/edit"
+                              ><i
+                                class="layout-menuitem-icon ng-tns-c2000835034-22 pi pi-fw pi-pencil"
+                              ></i
+                              ><span
+                                class="layout-menuitem-text ng-tns-c2000835034-22"
+                                >Edit</span
+                              ><!----><span
+                                class="p-ink ng-tns-c2000835034-22"
+                                aria-hidden="true"
+                                role="presentation"
+                              ></span></a
+                            ><!----><!----><!----><!---->
+                          </li>
+                          <!---->
+                        </ul>
+                        <!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-14 ng-tns-c2000835034-12 ng-star-inserted active-menuitem"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-14 ng-star-inserted active-route"
+                          href="/apps/calendar"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-14 pi pi-fw pi-calendar"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-14"
+                            >Calendar</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-14"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-15 ng-tns-c2000835034-12 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-15 ng-star-inserted"
+                          href="/apps/chat"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-15 pi pi-fw pi-comments"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-15"
+                            >Chat</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-15"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-16 ng-tns-c2000835034-12 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-16 ng-star-inserted"
+                          href="/apps/files"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-16 pi pi-fw pi-folder"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-16"
+                            >Files</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-16"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-17 ng-tns-c2000835034-12 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-17 ng-star-inserted"
+                          href="/apps/kanban"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-17 pi pi-fw pi-sliders-v"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-17"
+                            >Kanban</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-17"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-18 ng-tns-c2000835034-12 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><a
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-18 ng-star-inserted"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-18 pi pi-fw pi-envelope"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-18"
+                            >Mail</span
+                          ><i
+                            class="pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c2000835034-18 ng-star-inserted"
+                          ></i
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-18"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!---->
+                        <ul
+                          class="ng-trigger ng-trigger-children ng-tns-c2000835034-18 ng-star-inserted"
+                          style="height: 0px"
+                        >
+                          <li
+                            app-menuitem=""
+                            class="ng-tns-c2000835034-23 ng-tns-c2000835034-18 ng-star-inserted"
+                            style=""
+                          >
+                            <!----><!----><a
+                              routerlinkactive="active-route"
+                              tabindex="0"
+                              pripple=""
+                              class="p-element p-ripple ng-tns-c2000835034-23 ng-star-inserted"
+                              href="/apps/mail/inbox"
+                              ><i
+                                class="layout-menuitem-icon ng-tns-c2000835034-23 pi pi-fw pi-inbox"
+                              ></i
+                              ><span
+                                class="layout-menuitem-text ng-tns-c2000835034-23"
+                                >Inbox</span
+                              ><!----><span
+                                class="p-ink ng-tns-c2000835034-23"
+                                aria-hidden="true"
+                                role="presentation"
+                              ></span></a
+                            ><!----><!----><!----><!---->
+                          </li>
+                          <li
+                            app-menuitem=""
+                            class="ng-tns-c2000835034-24 ng-tns-c2000835034-18 ng-star-inserted"
+                            style=""
+                          >
+                            <!----><!----><a
+                              routerlinkactive="active-route"
+                              tabindex="0"
+                              pripple=""
+                              class="p-element p-ripple ng-tns-c2000835034-24 ng-star-inserted"
+                              href="/apps/mail/compose"
+                              ><i
+                                class="layout-menuitem-icon ng-tns-c2000835034-24 pi pi-fw pi-pencil"
+                              ></i
+                              ><span
+                                class="layout-menuitem-text ng-tns-c2000835034-24"
+                                >Compose</span
+                              ><!----><span
+                                class="p-ink ng-tns-c2000835034-24"
+                                aria-hidden="true"
+                                role="presentation"
+                              ></span></a
+                            ><!----><!----><!----><!---->
+                          </li>
+                          <li
+                            app-menuitem=""
+                            class="ng-tns-c2000835034-25 ng-tns-c2000835034-18 ng-star-inserted"
+                            style=""
+                          >
+                            <!----><!----><a
+                              routerlinkactive="active-route"
+                              tabindex="0"
+                              pripple=""
+                              class="p-element p-ripple ng-tns-c2000835034-25 ng-star-inserted"
+                              href="/apps/mail/detail/1000"
+                              ><i
+                                class="layout-menuitem-icon ng-tns-c2000835034-25 pi pi-fw pi-comment"
+                              ></i
+                              ><span
+                                class="layout-menuitem-text ng-tns-c2000835034-25"
+                                >Detail</span
+                              ><!----><span
+                                class="p-ink ng-tns-c2000835034-25"
+                                aria-hidden="true"
+                                role="presentation"
+                              ></span></a
+                            ><!----><!----><!----><!---->
+                          </li>
+                          <!---->
+                        </ul>
+                        <!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-19 ng-tns-c2000835034-12 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-19 ng-star-inserted"
+                          href="/apps/tasklist"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-19 pi pi-fw pi-check-square"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-19"
+                            >Task List</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-19"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <!---->
+                    </ul>
+                    <!----><!---->
+                  </li>
+                  <!----><!----><!---->
+                  <li
+                    app-menuitem=""
+                    class="ng-tns-c2000835034-26 layout-root-menuitem ng-star-inserted"
+                  >
+                    <div
+                      class="layout-menuitem-root-text ng-tns-c2000835034-26 ng-star-inserted"
+                    >
+                      UI Kit
+                    </div>
+                    <!----><a
+                      tabindex="0"
+                      pripple=""
+                      class="p-element p-ripple ng-tns-c2000835034-26 ng-star-inserted"
+                      ><i
+                        class="layout-menuitem-icon ng-tns-c2000835034-26 pi pi-fw pi-star-fill"
+                      ></i
+                      ><span class="layout-menuitem-text ng-tns-c2000835034-26"
+                        >UI Kit</span
+                      ><i
+                        class="pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c2000835034-26 ng-star-inserted"
+                      ></i
+                      ><!----><span
+                        class="p-ink ng-tns-c2000835034-26"
+                        aria-hidden="true"
+                        role="presentation"
+                      ></span></a
+                    ><!----><!----><!---->
+                    <ul
+                      class="ng-trigger ng-trigger-children ng-tns-c2000835034-26 ng-star-inserted"
+                    >
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-27 ng-tns-c2000835034-26 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-27 ng-star-inserted"
+                          href="/uikit/formlayout"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-27 pi pi-fw pi-id-card"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-27"
+                            >Form Layout</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-27"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-28 ng-tns-c2000835034-26 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-28 ng-star-inserted"
+                          href="/uikit/input"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-28 pi pi-fw pi-check-square"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-28"
+                            >Input</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-28"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-29 ng-tns-c2000835034-26 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-29 ng-star-inserted"
+                          href="/uikit/floatlabel"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-29 pi pi-fw pi-bookmark"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-29"
+                            >Float Label</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-29"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-30 ng-tns-c2000835034-26 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-30 ng-star-inserted"
+                          href="/uikit/invalidstate"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-30 pi pi-fw pi-exclamation-circle"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-30"
+                            >Invalid State</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-30"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-31 ng-tns-c2000835034-26 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-31 ng-star-inserted"
+                          href="/uikit/button"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-31 pi pi-fw pi-box"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-31"
+                            >Button</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-31"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-32 ng-tns-c2000835034-26 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-32 ng-star-inserted"
+                          href="/uikit/table"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-32 pi pi-fw pi-table"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-32"
+                            >Table</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-32"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-33 ng-tns-c2000835034-26 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-33 ng-star-inserted"
+                          href="/uikit/list"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-33 pi pi-fw pi-list"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-33"
+                            >List</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-33"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-34 ng-tns-c2000835034-26 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-34 ng-star-inserted"
+                          href="/uikit/tree"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-34 pi pi-fw pi-share-alt"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-34"
+                            >Tree</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-34"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-35 ng-tns-c2000835034-26 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-35 ng-star-inserted"
+                          href="/uikit/panel"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-35 pi pi-fw pi-tablet"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-35"
+                            >Panel</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-35"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-36 ng-tns-c2000835034-26 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-36 ng-star-inserted"
+                          href="/uikit/overlay"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-36 pi pi-fw pi-clone"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-36"
+                            >Overlay</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-36"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-37 ng-tns-c2000835034-26 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-37 ng-star-inserted"
+                          href="/uikit/media"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-37 pi pi-fw pi-image"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-37"
+                            >Media</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-37"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-38 ng-tns-c2000835034-26 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-38 ng-star-inserted"
+                          href="/uikit/menu"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-38 pi pi-fw pi-bars"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-38"
+                            >Menu</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-38"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-39 ng-tns-c2000835034-26 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-39 ng-star-inserted"
+                          href="/uikit/message"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-39 pi pi-fw pi-comment"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-39"
+                            >Message</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-39"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-40 ng-tns-c2000835034-26 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-40 ng-star-inserted"
+                          href="/uikit/file"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-40 pi pi-fw pi-file"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-40"
+                            >File</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-40"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-41 ng-tns-c2000835034-26 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-41 ng-star-inserted"
+                          href="/uikit/charts"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-41 pi pi-fw pi-chart-bar"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-41"
+                            >Chart</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-41"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-42 ng-tns-c2000835034-26 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-42 ng-star-inserted"
+                          href="/uikit/misc"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-42 pi pi-fw pi-circle-off"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-42"
+                            >Misc</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-42"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <!---->
+                    </ul>
+                    <!----><!---->
+                  </li>
+                  <!----><!----><!---->
+                  <li
+                    app-menuitem=""
+                    class="ng-tns-c2000835034-43 layout-root-menuitem ng-star-inserted"
+                  >
+                    <div
+                      class="layout-menuitem-root-text ng-tns-c2000835034-43 ng-star-inserted"
+                    >
+                      Prime Blocks
+                    </div>
+                    <!----><a
+                      tabindex="0"
+                      pripple=""
+                      class="p-element p-ripple ng-tns-c2000835034-43 ng-star-inserted"
+                      ><i
+                        class="layout-menuitem-icon ng-tns-c2000835034-43 pi pi-fw pi-prime"
+                      ></i
+                      ><span class="layout-menuitem-text ng-tns-c2000835034-43"
+                        >Prime Blocks</span
+                      ><i
+                        class="pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c2000835034-43 ng-star-inserted"
+                      ></i
+                      ><!----><span
+                        class="p-ink ng-tns-c2000835034-43"
+                        aria-hidden="true"
+                        role="presentation"
+                      ></span></a
+                    ><!----><!----><!---->
+                    <ul
+                      class="ng-trigger ng-trigger-children ng-tns-c2000835034-43 ng-star-inserted"
+                    >
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-44 ng-tns-c2000835034-43 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-44 ng-star-inserted"
+                          href="/blocks"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-44 pi pi-fw pi-eye"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-44"
+                            >Free Blocks</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-44"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-45 ng-tns-c2000835034-43 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><a
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-45 ng-star-inserted"
+                          href="https://www.primefaces.org/primeblocks-ng"
+                          target="_blank"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-45 pi pi-fw pi-globe"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-45"
+                            >All Blocks</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-45"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!----><!---->
+                      </li>
+                      <!---->
+                    </ul>
+                    <!----><!---->
+                  </li>
+                  <!----><!----><!---->
+                  <li
+                    app-menuitem=""
+                    class="ng-tns-c2000835034-46 layout-root-menuitem ng-star-inserted"
+                  >
+                    <div
+                      class="layout-menuitem-root-text ng-tns-c2000835034-46 ng-star-inserted"
+                    >
+                      Utilities
+                    </div>
+                    <!----><a
+                      tabindex="0"
+                      pripple=""
+                      class="p-element p-ripple ng-tns-c2000835034-46 ng-star-inserted"
+                      ><i
+                        class="layout-menuitem-icon ng-tns-c2000835034-46 pi pi-fw pi-compass"
+                      ></i
+                      ><span class="layout-menuitem-text ng-tns-c2000835034-46"
+                        >Utilities</span
+                      ><i
+                        class="pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c2000835034-46 ng-star-inserted"
+                      ></i
+                      ><!----><span
+                        class="p-ink ng-tns-c2000835034-46"
+                        aria-hidden="true"
+                        role="presentation"
+                      ></span></a
+                    ><!----><!----><!---->
+                    <ul
+                      class="ng-trigger ng-trigger-children ng-tns-c2000835034-46 ng-star-inserted"
+                    >
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-47 ng-tns-c2000835034-46 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-47 ng-star-inserted"
+                          href="/utilities/icons"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-47 pi pi-fw pi-prime"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-47"
+                            >PrimeIcons</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-47"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-48 ng-tns-c2000835034-46 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-48 ng-star-inserted"
+                          href="/utilities/colors"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-48 pi pi-fw pi-palette"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-48"
+                            >Colors</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-48"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-49 ng-tns-c2000835034-46 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><a
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-49 ng-star-inserted"
+                          href="https://www.primefaces.org/primeflex/"
+                          target="_blank"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-49 pi pi-fw pi-desktop"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-49"
+                            >PrimeFlex</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-49"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-50 ng-tns-c2000835034-46 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><a
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-50 ng-star-inserted"
+                          href="https://www.figma.com/file/zQOW0XBXdCTqODzEOqwBtt/Preview-%7C-Apollo-2022?node-id=335%3A21768&amp;t=urYI89V3PLNAZEJG-1/"
+                          target="_blank"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-50 pi pi-fw pi-pencil"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-50"
+                            >Figma</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-50"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!----><!---->
+                      </li>
+                      <!---->
+                    </ul>
+                    <!----><!---->
+                  </li>
+                  <!----><!----><!---->
+                  <li
+                    app-menuitem=""
+                    class="ng-tns-c2000835034-51 layout-root-menuitem ng-star-inserted"
+                  >
+                    <div
+                      class="layout-menuitem-root-text ng-tns-c2000835034-51 ng-star-inserted"
+                    >
+                      Pages
+                    </div>
+                    <!----><a
+                      tabindex="0"
+                      pripple=""
+                      class="p-element p-ripple ng-tns-c2000835034-51 ng-star-inserted"
+                      ><i
+                        class="layout-menuitem-icon ng-tns-c2000835034-51 pi pi-fw pi-briefcase"
+                      ></i
+                      ><span class="layout-menuitem-text ng-tns-c2000835034-51"
+                        >Pages</span
+                      ><i
+                        class="pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c2000835034-51 ng-star-inserted"
+                      ></i
+                      ><!----><span
+                        class="p-ink ng-tns-c2000835034-51"
+                        aria-hidden="true"
+                        role="presentation"
+                      ></span></a
+                    ><!----><!----><!---->
+                    <ul
+                      class="ng-trigger ng-trigger-children ng-tns-c2000835034-51 ng-star-inserted"
+                    >
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-52 ng-tns-c2000835034-51 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-52 ng-star-inserted"
+                          href="/landing"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-52 pi pi-fw pi-globe"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-52"
+                            >Landing</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-52"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-53 ng-tns-c2000835034-51 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><a
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-53 ng-star-inserted"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-53 pi pi-fw pi-user"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-53"
+                            >Auth</span
+                          ><i
+                            class="pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c2000835034-53 ng-star-inserted"
+                          ></i
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-53"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!---->
+                        <ul
+                          class="ng-trigger ng-trigger-children ng-tns-c2000835034-53 ng-star-inserted"
+                          style="height: 0px"
+                        >
+                          <li
+                            app-menuitem=""
+                            class="ng-tns-c2000835034-63 ng-tns-c2000835034-53 ng-star-inserted"
+                            style=""
+                          >
+                            <!----><!----><a
+                              routerlinkactive="active-route"
+                              tabindex="0"
+                              pripple=""
+                              class="p-element p-ripple ng-tns-c2000835034-63 ng-star-inserted"
+                              href="/auth/login"
+                              ><i
+                                class="layout-menuitem-icon ng-tns-c2000835034-63 pi pi-fw pi-sign-in"
+                              ></i
+                              ><span
+                                class="layout-menuitem-text ng-tns-c2000835034-63"
+                                >Login</span
+                              ><!----><span
+                                class="p-ink ng-tns-c2000835034-63"
+                                aria-hidden="true"
+                                role="presentation"
+                              ></span></a
+                            ><!----><!----><!----><!---->
+                          </li>
+                          <li
+                            app-menuitem=""
+                            class="ng-tns-c2000835034-64 ng-tns-c2000835034-53 ng-star-inserted"
+                            style=""
+                          >
+                            <!----><!----><a
+                              routerlinkactive="active-route"
+                              tabindex="0"
+                              pripple=""
+                              class="p-element p-ripple ng-tns-c2000835034-64 ng-star-inserted"
+                              href="/auth/error"
+                              ><i
+                                class="layout-menuitem-icon ng-tns-c2000835034-64 pi pi-fw pi-times-circle"
+                              ></i
+                              ><span
+                                class="layout-menuitem-text ng-tns-c2000835034-64"
+                                >Error</span
+                              ><!----><span
+                                class="p-ink ng-tns-c2000835034-64"
+                                aria-hidden="true"
+                                role="presentation"
+                              ></span></a
+                            ><!----><!----><!----><!---->
+                          </li>
+                          <li
+                            app-menuitem=""
+                            class="ng-tns-c2000835034-65 ng-tns-c2000835034-53 ng-star-inserted"
+                            style=""
+                          >
+                            <!----><!----><a
+                              routerlinkactive="active-route"
+                              tabindex="0"
+                              pripple=""
+                              class="p-element p-ripple ng-tns-c2000835034-65 ng-star-inserted"
+                              href="/auth/access"
+                              ><i
+                                class="layout-menuitem-icon ng-tns-c2000835034-65 pi pi-fw pi-lock"
+                              ></i
+                              ><span
+                                class="layout-menuitem-text ng-tns-c2000835034-65"
+                                >Access Denied</span
+                              ><!----><span
+                                class="p-ink ng-tns-c2000835034-65"
+                                aria-hidden="true"
+                                role="presentation"
+                              ></span></a
+                            ><!----><!----><!----><!---->
+                          </li>
+                          <li
+                            app-menuitem=""
+                            class="ng-tns-c2000835034-66 ng-tns-c2000835034-53 ng-star-inserted"
+                            style=""
+                          >
+                            <!----><!----><a
+                              routerlinkactive="active-route"
+                              tabindex="0"
+                              pripple=""
+                              class="p-element p-ripple ng-tns-c2000835034-66 ng-star-inserted"
+                              href="/auth/register"
+                              ><i
+                                class="layout-menuitem-icon ng-tns-c2000835034-66 pi pi-fw pi-user-plus"
+                              ></i
+                              ><span
+                                class="layout-menuitem-text ng-tns-c2000835034-66"
+                                >Register</span
+                              ><!----><span
+                                class="p-ink ng-tns-c2000835034-66"
+                                aria-hidden="true"
+                                role="presentation"
+                              ></span></a
+                            ><!----><!----><!----><!---->
+                          </li>
+                          <li
+                            app-menuitem=""
+                            class="ng-tns-c2000835034-67 ng-tns-c2000835034-53 ng-star-inserted"
+                            style=""
+                          >
+                            <!----><!----><a
+                              routerlinkactive="active-route"
+                              tabindex="0"
+                              pripple=""
+                              class="p-element p-ripple ng-tns-c2000835034-67 ng-star-inserted"
+                              href="/auth/forgotpassword"
+                              ><i
+                                class="layout-menuitem-icon ng-tns-c2000835034-67 pi pi-fw pi-question"
+                              ></i
+                              ><span
+                                class="layout-menuitem-text ng-tns-c2000835034-67"
+                                >Forgot Password</span
+                              ><!----><span
+                                class="p-ink ng-tns-c2000835034-67"
+                                aria-hidden="true"
+                                role="presentation"
+                              ></span></a
+                            ><!----><!----><!----><!---->
+                          </li>
+                          <li
+                            app-menuitem=""
+                            class="ng-tns-c2000835034-68 ng-tns-c2000835034-53 ng-star-inserted"
+                            style=""
+                          >
+                            <!----><!----><a
+                              routerlinkactive="active-route"
+                              tabindex="0"
+                              pripple=""
+                              class="p-element p-ripple ng-tns-c2000835034-68 ng-star-inserted"
+                              href="/auth/newpassword"
+                              ><i
+                                class="layout-menuitem-icon ng-tns-c2000835034-68 pi pi-fw pi-cog"
+                              ></i
+                              ><span
+                                class="layout-menuitem-text ng-tns-c2000835034-68"
+                                >New Password</span
+                              ><!----><span
+                                class="p-ink ng-tns-c2000835034-68"
+                                aria-hidden="true"
+                                role="presentation"
+                              ></span></a
+                            ><!----><!----><!----><!---->
+                          </li>
+                          <li
+                            app-menuitem=""
+                            class="ng-tns-c2000835034-69 ng-tns-c2000835034-53 ng-star-inserted"
+                            style=""
+                          >
+                            <!----><!----><a
+                              routerlinkactive="active-route"
+                              tabindex="0"
+                              pripple=""
+                              class="p-element p-ripple ng-tns-c2000835034-69 ng-star-inserted"
+                              href="/auth/verification"
+                              ><i
+                                class="layout-menuitem-icon ng-tns-c2000835034-69 pi pi-fw pi-envelope"
+                              ></i
+                              ><span
+                                class="layout-menuitem-text ng-tns-c2000835034-69"
+                                >Verification</span
+                              ><!----><span
+                                class="p-ink ng-tns-c2000835034-69"
+                                aria-hidden="true"
+                                role="presentation"
+                              ></span></a
+                            ><!----><!----><!----><!---->
+                          </li>
+                          <li
+                            app-menuitem=""
+                            class="ng-tns-c2000835034-70 ng-tns-c2000835034-53 ng-star-inserted"
+                            style=""
+                          >
+                            <!----><!----><a
+                              routerlinkactive="active-route"
+                              tabindex="0"
+                              pripple=""
+                              class="p-element p-ripple ng-tns-c2000835034-70 ng-star-inserted"
+                              href="/auth/lockscreen"
+                              ><i
+                                class="layout-menuitem-icon ng-tns-c2000835034-70 pi pi-fw pi-eye-slash"
+                              ></i
+                              ><span
+                                class="layout-menuitem-text ng-tns-c2000835034-70"
+                                >Lock Screen</span
+                              ><!----><span
+                                class="p-ink ng-tns-c2000835034-70"
+                                aria-hidden="true"
+                                role="presentation"
+                              ></span></a
+                            ><!----><!----><!----><!---->
+                          </li>
+                          <!---->
+                        </ul>
+                        <!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-54 ng-tns-c2000835034-51 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-54 ng-star-inserted"
+                          href="/pages/crud"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-54 pi pi-fw pi-pencil"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-54"
+                            >Crud</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-54"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-55 ng-tns-c2000835034-51 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-55 ng-star-inserted"
+                          href="/pages/timeline"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-55 pi pi-fw pi-calendar"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-55"
+                            >Timeline</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-55"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-56 ng-tns-c2000835034-51 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-56 ng-star-inserted"
+                          href="/pages/invoice"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-56 pi pi-fw pi-dollar"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-56"
+                            >Invoice</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-56"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-57 ng-tns-c2000835034-51 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-57 ng-star-inserted"
+                          href="/pages/aboutus"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-57 pi pi-fw pi-user"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-57"
+                            >About Us</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-57"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-58 ng-tns-c2000835034-51 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-58 ng-star-inserted"
+                          href="/pages/help"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-58 pi pi-fw pi-question-circle"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-58"
+                            >Help</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-58"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-59 ng-tns-c2000835034-51 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-59 ng-star-inserted"
+                          href="/pages/notfound"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-59 pi pi-fw pi-exclamation-circle"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-59"
+                            >Not Found</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-59"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-60 ng-tns-c2000835034-51 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-60 ng-star-inserted"
+                          href="/pages/empty"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-60 pi pi-fw pi-circle-off"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-60"
+                            >Empty</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-60"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-61 ng-tns-c2000835034-51 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-61 ng-star-inserted"
+                          href="/pages/faq"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-61 pi pi-fw pi-question"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-61"
+                            >FAQ</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-61"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-62 ng-tns-c2000835034-51 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-62 ng-star-inserted"
+                          href="/pages/contact"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-62 pi pi-fw pi-phone"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-62"
+                            >Contact Us</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-62"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <!---->
+                    </ul>
+                    <!----><!---->
+                  </li>
+                  <!----><!----><!---->
+                  <li
+                    app-menuitem=""
+                    class="ng-tns-c2000835034-71 layout-root-menuitem ng-star-inserted"
+                  >
+                    <div
+                      class="layout-menuitem-root-text ng-tns-c2000835034-71 ng-star-inserted"
+                    >
+                      E-Commerce
+                    </div>
+                    <!----><a
+                      tabindex="0"
+                      pripple=""
+                      class="p-element p-ripple ng-tns-c2000835034-71 ng-star-inserted"
+                      ><i
+                        class="layout-menuitem-icon ng-tns-c2000835034-71 pi pi-fw pi-wallet"
+                      ></i
+                      ><span class="layout-menuitem-text ng-tns-c2000835034-71"
+                        >E-Commerce</span
+                      ><i
+                        class="pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c2000835034-71 ng-star-inserted"
+                      ></i
+                      ><!----><span
+                        class="p-ink ng-tns-c2000835034-71"
+                        aria-hidden="true"
+                        role="presentation"
+                      ></span></a
+                    ><!----><!----><!---->
+                    <ul
+                      class="ng-trigger ng-trigger-children ng-tns-c2000835034-71 ng-star-inserted"
+                    >
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-72 ng-tns-c2000835034-71 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-72 ng-star-inserted"
+                          href="/ecommerce/product-overview"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-72 pi pi-fw pi-image"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-72"
+                            >Product Overview</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-72"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-73 ng-tns-c2000835034-71 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-73 ng-star-inserted"
+                          href="/ecommerce/product-list"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-73 pi pi-fw pi-list"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-73"
+                            >Product List</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-73"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-74 ng-tns-c2000835034-71 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-74 ng-star-inserted"
+                          href="/ecommerce/new-product"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-74 pi pi-fw pi-plus"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-74"
+                            >New Product</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-74"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-75 ng-tns-c2000835034-71 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-75 ng-star-inserted"
+                          href="/ecommerce/shopping-cart"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-75 pi pi-fw pi-shopping-cart"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-75"
+                            >Shopping Cart</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-75"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-76 ng-tns-c2000835034-71 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-76 ng-star-inserted"
+                          href="/ecommerce/checkout-form"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-76 pi pi-fw pi-check-square"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-76"
+                            >Checkout Form</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-76"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-77 ng-tns-c2000835034-71 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-77 ng-star-inserted"
+                          href="/ecommerce/order-history"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-77 pi pi-fw pi-history"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-77"
+                            >Order History</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-77"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-78 ng-tns-c2000835034-71 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-78 ng-star-inserted"
+                          href="/ecommerce/order-summary"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-78 pi pi-fw pi-file"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-78"
+                            >Order Summary</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-78"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <!---->
+                    </ul>
+                    <!----><!---->
+                  </li>
+                  <!----><!----><!---->
+                  <li
+                    app-menuitem=""
+                    class="ng-tns-c2000835034-79 layout-root-menuitem ng-star-inserted"
+                  >
+                    <div
+                      class="layout-menuitem-root-text ng-tns-c2000835034-79 ng-star-inserted"
+                    >
+                      User Management
+                    </div>
+                    <!----><a
+                      tabindex="0"
+                      pripple=""
+                      class="p-element p-ripple ng-tns-c2000835034-79 ng-star-inserted"
+                      ><i
+                        class="layout-menuitem-icon ng-tns-c2000835034-79 pi pi-fw pi-user"
+                      ></i
+                      ><span class="layout-menuitem-text ng-tns-c2000835034-79"
+                        >User Management</span
+                      ><i
+                        class="pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c2000835034-79 ng-star-inserted"
+                      ></i
+                      ><!----><span
+                        class="p-ink ng-tns-c2000835034-79"
+                        aria-hidden="true"
+                        role="presentation"
+                      ></span></a
+                    ><!----><!----><!---->
+                    <ul
+                      class="ng-trigger ng-trigger-children ng-tns-c2000835034-79 ng-star-inserted"
+                    >
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-80 ng-tns-c2000835034-79 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-80 ng-star-inserted"
+                          href="/profile/list"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-80 pi pi-fw pi-list"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-80"
+                            >List</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-80"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-81 ng-tns-c2000835034-79 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-81 ng-star-inserted"
+                          href="/profile/create"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-81 pi pi-fw pi-plus"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-81"
+                            >Create</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-81"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <!---->
+                    </ul>
+                    <!----><!---->
+                  </li>
+                  <!----><!----><!---->
+                  <li
+                    app-menuitem=""
+                    class="ng-tns-c2000835034-82 layout-root-menuitem ng-star-inserted"
+                  >
+                    <div
+                      class="layout-menuitem-root-text ng-tns-c2000835034-82 ng-star-inserted"
+                    >
+                      Hierarchy
+                    </div>
+                    <!----><a
+                      tabindex="0"
+                      pripple=""
+                      class="p-element p-ripple ng-tns-c2000835034-82 ng-star-inserted"
+                      ><i
+                        class="layout-menuitem-icon ng-tns-c2000835034-82 pi pi-fw pi-align-left"
+                      ></i
+                      ><span class="layout-menuitem-text ng-tns-c2000835034-82"
+                        >Hierarchy</span
+                      ><i
+                        class="pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c2000835034-82 ng-star-inserted"
+                      ></i
+                      ><!----><span
+                        class="p-ink ng-tns-c2000835034-82"
+                        aria-hidden="true"
+                        role="presentation"
+                      ></span></a
+                    ><!----><!----><!---->
+                    <ul
+                      class="ng-trigger ng-trigger-children ng-tns-c2000835034-82 ng-star-inserted"
+                    >
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-83 ng-tns-c2000835034-82 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><a
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-83 ng-star-inserted"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-83 pi pi-fw pi-align-left"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-83"
+                            >Submenu 1</span
+                          ><i
+                            class="pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c2000835034-83 ng-star-inserted"
+                          ></i
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-83"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!---->
+                        <ul
+                          class="ng-trigger ng-trigger-children ng-tns-c2000835034-83 ng-star-inserted"
+                          style="height: 0px"
+                        >
+                          <li
+                            app-menuitem=""
+                            class="ng-tns-c2000835034-85 ng-tns-c2000835034-83 ng-star-inserted"
+                            style=""
+                          >
+                            <!----><a
+                              tabindex="0"
+                              pripple=""
+                              class="p-element p-ripple ng-tns-c2000835034-85 ng-star-inserted"
+                              ><i
+                                class="layout-menuitem-icon ng-tns-c2000835034-85 pi pi-fw pi-align-left"
+                              ></i
+                              ><span
+                                class="layout-menuitem-text ng-tns-c2000835034-85"
+                                >Submenu 1.1</span
+                              ><i
+                                class="pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c2000835034-85 ng-star-inserted"
+                              ></i
+                              ><!----><span
+                                class="p-ink ng-tns-c2000835034-85"
+                                aria-hidden="true"
+                                role="presentation"
+                              ></span></a
+                            ><!----><!----><!---->
+                            <ul
+                              class="ng-trigger ng-trigger-children ng-tns-c2000835034-85 ng-star-inserted"
+                              style="height: 0px"
+                            >
+                              <li
+                                app-menuitem=""
+                                class="ng-tns-c2000835034-87 ng-tns-c2000835034-85 ng-star-inserted"
+                                style=""
+                              >
+                                <!----><a
+                                  tabindex="0"
+                                  pripple=""
+                                  class="p-element p-ripple ng-tns-c2000835034-87 ng-star-inserted"
+                                  ><i
+                                    class="layout-menuitem-icon ng-tns-c2000835034-87 pi pi-fw pi-align-left"
+                                  ></i
+                                  ><span
+                                    class="layout-menuitem-text ng-tns-c2000835034-87"
+                                    >Submenu 1.1.1</span
+                                  ><!----><span
+                                    class="p-ink ng-tns-c2000835034-87"
+                                    aria-hidden="true"
+                                    role="presentation"
+                                  ></span></a
+                                ><!----><!----><!----><!----><!---->
+                              </li>
+                              <li
+                                app-menuitem=""
+                                class="ng-tns-c2000835034-88 ng-tns-c2000835034-85 ng-star-inserted"
+                                style=""
+                              >
+                                <!----><a
+                                  tabindex="0"
+                                  pripple=""
+                                  class="p-element p-ripple ng-tns-c2000835034-88 ng-star-inserted"
+                                  ><i
+                                    class="layout-menuitem-icon ng-tns-c2000835034-88 pi pi-fw pi-align-left"
+                                  ></i
+                                  ><span
+                                    class="layout-menuitem-text ng-tns-c2000835034-88"
+                                    >Submenu 1.1.2</span
+                                  ><!----><span
+                                    class="p-ink ng-tns-c2000835034-88"
+                                    aria-hidden="true"
+                                    role="presentation"
+                                  ></span></a
+                                ><!----><!----><!----><!----><!---->
+                              </li>
+                              <li
+                                app-menuitem=""
+                                class="ng-tns-c2000835034-89 ng-tns-c2000835034-85 ng-star-inserted"
+                                style=""
+                              >
+                                <!----><a
+                                  tabindex="0"
+                                  pripple=""
+                                  class="p-element p-ripple ng-tns-c2000835034-89 ng-star-inserted"
+                                  ><i
+                                    class="layout-menuitem-icon ng-tns-c2000835034-89 pi pi-fw pi-align-left"
+                                  ></i
+                                  ><span
+                                    class="layout-menuitem-text ng-tns-c2000835034-89"
+                                    >Submenu 1.1.3</span
+                                  ><!----><span
+                                    class="p-ink ng-tns-c2000835034-89"
+                                    aria-hidden="true"
+                                    role="presentation"
+                                  ></span></a
+                                ><!----><!----><!----><!----><!---->
+                              </li>
+                              <!---->
+                            </ul>
+                            <!----><!---->
+                          </li>
+                          <li
+                            app-menuitem=""
+                            class="ng-tns-c2000835034-86 ng-tns-c2000835034-83 ng-star-inserted"
+                            style=""
+                          >
+                            <!----><a
+                              tabindex="0"
+                              pripple=""
+                              class="p-element p-ripple ng-tns-c2000835034-86 ng-star-inserted"
+                              ><i
+                                class="layout-menuitem-icon ng-tns-c2000835034-86 pi pi-fw pi-align-left"
+                              ></i
+                              ><span
+                                class="layout-menuitem-text ng-tns-c2000835034-86"
+                                >Submenu 1.2</span
+                              ><i
+                                class="pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c2000835034-86 ng-star-inserted"
+                              ></i
+                              ><!----><span
+                                class="p-ink ng-tns-c2000835034-86"
+                                aria-hidden="true"
+                                role="presentation"
+                              ></span></a
+                            ><!----><!----><!---->
+                            <ul
+                              class="ng-trigger ng-trigger-children ng-tns-c2000835034-86 ng-star-inserted"
+                              style="height: 0px"
+                            >
+                              <li
+                                app-menuitem=""
+                                class="ng-tns-c2000835034-90 ng-tns-c2000835034-86 ng-star-inserted"
+                                style=""
+                              >
+                                <!----><a
+                                  tabindex="0"
+                                  pripple=""
+                                  class="p-element p-ripple ng-tns-c2000835034-90 ng-star-inserted"
+                                  ><i
+                                    class="layout-menuitem-icon ng-tns-c2000835034-90 pi pi-fw pi-align-left"
+                                  ></i
+                                  ><span
+                                    class="layout-menuitem-text ng-tns-c2000835034-90"
+                                    >Submenu 1.2.1</span
+                                  ><!----><span
+                                    class="p-ink ng-tns-c2000835034-90"
+                                    aria-hidden="true"
+                                    role="presentation"
+                                  ></span></a
+                                ><!----><!----><!----><!----><!---->
+                              </li>
+                              <!---->
+                            </ul>
+                            <!----><!---->
+                          </li>
+                          <!---->
+                        </ul>
+                        <!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-84 ng-tns-c2000835034-82 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><a
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-84 ng-star-inserted"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-84 pi pi-fw pi-align-left"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-84"
+                            >Submenu 2</span
+                          ><i
+                            class="pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c2000835034-84 ng-star-inserted"
+                          ></i
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-84"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!---->
+                        <ul
+                          class="ng-trigger ng-trigger-children ng-tns-c2000835034-84 ng-star-inserted"
+                          style="height: 0px"
+                        >
+                          <li
+                            app-menuitem=""
+                            class="ng-tns-c2000835034-91 ng-tns-c2000835034-84 ng-star-inserted"
+                            style=""
+                          >
+                            <!----><a
+                              tabindex="0"
+                              pripple=""
+                              class="p-element p-ripple ng-tns-c2000835034-91 ng-star-inserted"
+                              ><i
+                                class="layout-menuitem-icon ng-tns-c2000835034-91 pi pi-fw pi-align-left"
+                              ></i
+                              ><span
+                                class="layout-menuitem-text ng-tns-c2000835034-91"
+                                >Submenu 2.1</span
+                              ><i
+                                class="pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c2000835034-91 ng-star-inserted"
+                              ></i
+                              ><!----><span
+                                class="p-ink ng-tns-c2000835034-91"
+                                aria-hidden="true"
+                                role="presentation"
+                              ></span></a
+                            ><!----><!----><!---->
+                            <ul
+                              class="ng-trigger ng-trigger-children ng-tns-c2000835034-91 ng-star-inserted"
+                              style="height: 0px"
+                            >
+                              <li
+                                app-menuitem=""
+                                class="ng-tns-c2000835034-93 ng-tns-c2000835034-91 ng-star-inserted"
+                                style=""
+                              >
+                                <!----><a
+                                  tabindex="0"
+                                  pripple=""
+                                  class="p-element p-ripple ng-tns-c2000835034-93 ng-star-inserted"
+                                  ><i
+                                    class="layout-menuitem-icon ng-tns-c2000835034-93 pi pi-fw pi-align-left"
+                                  ></i
+                                  ><span
+                                    class="layout-menuitem-text ng-tns-c2000835034-93"
+                                    >Submenu 2.1.1</span
+                                  ><!----><span
+                                    class="p-ink ng-tns-c2000835034-93"
+                                    aria-hidden="true"
+                                    role="presentation"
+                                  ></span></a
+                                ><!----><!----><!----><!----><!---->
+                              </li>
+                              <li
+                                app-menuitem=""
+                                class="ng-tns-c2000835034-94 ng-tns-c2000835034-91 ng-star-inserted"
+                                style=""
+                              >
+                                <!----><a
+                                  tabindex="0"
+                                  pripple=""
+                                  class="p-element p-ripple ng-tns-c2000835034-94 ng-star-inserted"
+                                  ><i
+                                    class="layout-menuitem-icon ng-tns-c2000835034-94 pi pi-fw pi-align-left"
+                                  ></i
+                                  ><span
+                                    class="layout-menuitem-text ng-tns-c2000835034-94"
+                                    >Submenu 2.1.2</span
+                                  ><!----><span
+                                    class="p-ink ng-tns-c2000835034-94"
+                                    aria-hidden="true"
+                                    role="presentation"
+                                  ></span></a
+                                ><!----><!----><!----><!----><!---->
+                              </li>
+                              <!---->
+                            </ul>
+                            <!----><!---->
+                          </li>
+                          <li
+                            app-menuitem=""
+                            class="ng-tns-c2000835034-92 ng-tns-c2000835034-84 ng-star-inserted"
+                            style=""
+                          >
+                            <!----><a
+                              tabindex="0"
+                              pripple=""
+                              class="p-element p-ripple ng-tns-c2000835034-92 ng-star-inserted"
+                              ><i
+                                class="layout-menuitem-icon ng-tns-c2000835034-92 pi pi-fw pi-align-left"
+                              ></i
+                              ><span
+                                class="layout-menuitem-text ng-tns-c2000835034-92"
+                                >Submenu 2.2</span
+                              ><i
+                                class="pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c2000835034-92 ng-star-inserted"
+                              ></i
+                              ><!----><span
+                                class="p-ink ng-tns-c2000835034-92"
+                                aria-hidden="true"
+                                role="presentation"
+                              ></span></a
+                            ><!----><!----><!---->
+                            <ul
+                              class="ng-trigger ng-trigger-children ng-tns-c2000835034-92 ng-star-inserted"
+                              style="height: 0px"
+                            >
+                              <li
+                                app-menuitem=""
+                                class="ng-tns-c2000835034-95 ng-tns-c2000835034-92 ng-star-inserted"
+                                style=""
+                              >
+                                <!----><a
+                                  tabindex="0"
+                                  pripple=""
+                                  class="p-element p-ripple ng-tns-c2000835034-95 ng-star-inserted"
+                                  ><i
+                                    class="layout-menuitem-icon ng-tns-c2000835034-95 pi pi-fw pi-align-left"
+                                  ></i
+                                  ><span
+                                    class="layout-menuitem-text ng-tns-c2000835034-95"
+                                    >Submenu 2.2.1</span
+                                  ><!----><span
+                                    class="p-ink ng-tns-c2000835034-95"
+                                    aria-hidden="true"
+                                    role="presentation"
+                                  ></span></a
+                                ><!----><!----><!----><!----><!---->
+                              </li>
+                              <!---->
+                            </ul>
+                            <!----><!---->
+                          </li>
+                          <!---->
+                        </ul>
+                        <!----><!---->
+                      </li>
+                      <!---->
+                    </ul>
+                    <!----><!---->
+                  </li>
+                  <!----><!----><!---->
+                  <li
+                    app-menuitem=""
+                    class="ng-tns-c2000835034-96 layout-root-menuitem ng-star-inserted"
+                  >
+                    <div
+                      class="layout-menuitem-root-text ng-tns-c2000835034-96 ng-star-inserted"
+                    >
+                      Start
+                    </div>
+                    <!----><a
+                      tabindex="0"
+                      pripple=""
+                      class="p-element p-ripple ng-tns-c2000835034-96 ng-star-inserted"
+                      ><i
+                        class="layout-menuitem-icon ng-tns-c2000835034-96 pi pi-fw pi-download"
+                      ></i
+                      ><span class="layout-menuitem-text ng-tns-c2000835034-96"
+                        >Start</span
+                      ><i
+                        class="pi pi-fw pi-angle-down layout-submenu-toggler ng-tns-c2000835034-96 ng-star-inserted"
+                      ></i
+                      ><!----><span
+                        class="p-ink ng-tns-c2000835034-96"
+                        aria-hidden="true"
+                        role="presentation"
+                      ></span></a
+                    ><!----><!----><!---->
+                    <ul
+                      class="ng-trigger ng-trigger-children ng-tns-c2000835034-96 ng-star-inserted"
+                    >
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-97 ng-tns-c2000835034-96 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><a
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-97 ng-star-inserted"
+                          href="https://www.primefaces.org/store"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-97 pi pi-fw pi-shopping-cart"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-97"
+                            >Buy Now</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-97"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!----><!---->
+                      </li>
+                      <li
+                        app-menuitem=""
+                        class="ng-tns-c2000835034-98 ng-tns-c2000835034-96 ng-star-inserted"
+                        style=""
+                      >
+                        <!----><!----><a
+                          routerlinkactive="active-route"
+                          tabindex="0"
+                          pripple=""
+                          class="p-element p-ripple ng-tns-c2000835034-98 ng-star-inserted"
+                          href="/documentation"
+                          ><i
+                            class="layout-menuitem-icon ng-tns-c2000835034-98 pi pi-fw pi-info-circle"
+                          ></i
+                          ><span
+                            class="layout-menuitem-text ng-tns-c2000835034-98"
+                            >Documentation</span
+                          ><!----><span
+                            class="p-ink ng-tns-c2000835034-98"
+                            aria-hidden="true"
+                            role="presentation"
+                          ></span></a
+                        ><!----><!----><!----><!---->
+                      </li>
+                      <!---->
+                    </ul>
+                    <!----><!---->
+                  </li>
+                  <!----><!----><!----><!---->
+                </ul></app-menu
+              >
+            </div>
+          </div></app-sidebar
+        >
+      </div>
+      <div class="topbar-end">
+        <ul class="topbar-menu">
+          <li class="hidden lg:block">
+            <div class="topbar-search">
+              <button
+                pbutton=""
+                icon="pi pi-search"
+                type="button"
+                class="p-element topbar-searchbutton p-button-text p-button-secondary text-color-secondary p-button-rounded flex-shrink-0 p-button p-component p-button-icon-only"
+              >
+                <span
+                  class="p-button-icon pi pi-search"
+                  aria-hidden="true"
+                ></span>
+              </button>
+              <div class="search-input-wrapper">
+                <span class="p-input-icon-right"
+                  ><input
+                    type="text"
+                    pinputtext=""
+                    placeholder="Search"
+                    class="p-inputtext p-component p-element" /><i
+                    class="pi pi-search"
+                  ></i
+                ></span>
+              </div>
+            </div>
+          </li>
+          <li class="profile-item topbar-item">
+            <button
+              pbutton=""
+              type="button"
+              icon="pi pi-bell"
+              class="p-element p-button-text p-button-secondary text-color-secondary p-button-rounded flex-shrink-0 p-button p-component p-button-icon-only"
+            >
+              <span class="p-button-icon pi pi-bell" aria-hidden="true"></span>
+            </button>
+          </li>
+          <li class="profile-item topbar-item">
+            <button
+              pbutton=""
+              type="button"
+              icon="pi pi-comment"
+              class="p-element p-button-text p-button-secondary relative text-color-secondary p-button-rounded flex-shrink-0 p-button p-component p-button-icon-only"
+            >
+              <span
+                class="p-button-icon pi pi-comment"
+                aria-hidden="true"
+              ></span>
+            </button>
+          </li>
+          <li class="ml-3">
+            <button
+              pbutton=""
+              type="button"
+              icon="pi pi-cog"
+              class="p-element p-button-text p-button-secondary text-color-secondary p-button-rounded flex-shrink-0 p-button p-component p-button-icon-only"
+            >
+              <span class="p-button-icon pi pi-cog" aria-hidden="true"></span>
+            </button>
+          </li>
+          <li class="profile-item topbar-item">
+            <a
+              pstyleclass="@next"
+              enterfromclass="ng-hidden"
+              enteractiveclass="px-scalein"
+              leavetoclass="ng-hidden"
+              leaveactiveclass="px-fadeout"
+              pripple=""
+              class="p-ripple p-element cursor-pointer"
+              ><img
+                src="assets/demo/images/avatar/square/avatar-m-1.jpg"
+                class="border-circle" /><span
+                class="p-ink"
+                aria-hidden="true"
+                role="presentation"
+              ></span
+            ></a>
+            <ul
+              class="topbar-menu active-topbar-menu p-4 w-15rem z-5 ng-hidden border-round"
+            >
+              <li role="menuitem" class="m-0 mb-3">
+                <a
+                  href="#"
+                  pstyleclass="@grandparent"
+                  enterfromclass="ng-hidden"
+                  enteractiveclass="px-scalein"
+                  leavetoclass="ng-hidden"
+                  leaveactiveclass="px-fadeout"
+                  class="p-element flex align-items-center hover:text-primary-500 transition-duration-200"
+                  ><i class="pi pi-fw pi-lock mr-2"></i><span>Privacy</span></a
+                >
+              </li>
+              <li role="menuitem" class="m-0 mb-3">
+                <a
+                  href="#"
+                  pstyleclass="@grandparent"
+                  enterfromclass="ng-hidden"
+                  enteractiveclass="px-scalein"
+                  leavetoclass="ng-hidden"
+                  leaveactiveclass="px-fadeout"
+                  class="p-element flex align-items-center hover:text-primary-500 transition-duration-200"
+                  ><i class="pi pi-fw pi-cog mr-2"></i><span>Settings</span></a
+                >
+              </li>
+              <li role="menuitem" class="m-0">
+                <a
+                  href="#"
+                  pstyleclass="@grandparent"
+                  enterfromclass="ng-hidden"
+                  enteractiveclass="px-scalein"
+                  leavetoclass="ng-hidden"
+                  leaveactiveclass="px-fadeout"
+                  class="p-element flex align-items-center hover:text-primary-500 transition-duration-200"
+                  ><i class="pi pi-fw pi-sign-out mr-2"></i
+                  ><span>Logout</span></a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="right-panel-button relative hidden lg:block">
+            <button
+              pbutton=""
+              type="button"
+              label="Today"
+              icon="pi pi-bookmark"
+              styleclass="font-normal"
+              class="p-element layout-rightmenu-button hidden md:block font-normal p-button p-component"
+              style="width: 5.7rem"
+            >
+              <span
+                class="p-button-icon p-button-icon-left pi pi-bookmark"
+                aria-hidden="true"
+              ></span
+              ><span class="p-button-label">Today</span></button
+            ><button
+              pbutton=""
+              type="button"
+              icon="pi pi-bookmark"
+              styleclass="font-normal"
+              class="p-element layout-rightmenu-button block md:hidden p-button p-component p-button-icon-only"
+            >
+              <span
+                class="p-button-icon pi pi-bookmark"
+                aria-hidden="true"
+              ></span>
+            </button>
+          </li>
+        </ul>
+      </div></div
+  ></app-topbar>

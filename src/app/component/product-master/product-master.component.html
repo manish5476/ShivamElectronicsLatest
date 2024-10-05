@@ -1,358 +1,375 @@
 <div class="container">
-  <!-- <div class="header"></div> -->
   <div class="form-group">
-    <p-floatLabel>
-      <input pInputText id="productname" [(ngModel)]="product.name" />
-      <label for="username">Product Name</label>
-    </p-floatLabel>
-
-    <p-floatLabel>
-      <input pInputText id="brand" [(ngModel)]="product.brand" />
-      <label for="username">Brand</label>
-    </p-floatLabel>
-  </div>
-  <!--  -->
-  <div
-    class="form-group"
-    *ngFor="let feature of product.features; let i = index"
-  >
-    <p-floatLabel>
-      <input pInputText id="feature" [(ngModel)]="product.features[i]" />
-      <label for="username">feature[i]</label>
-    </p-floatLabel>
-    <p-button
-      label="Rem-Feat"
-      (click)="removeFeature(i)"
-      [outlined]="true"
-      severity="warning"
-    />
-  </div>
-  <p-button
-    label="Add-Feat"
-    (click)="addFeature()"
-    [outlined]="true"
-    severity="success"
-  />
-
-  <!--  -->
-  <div class="form-group" *ngFor="let image of product.images; let i = index">
-    <p-floatLabel>
-      <input pInputText id="feature" [(ngModel)]="product.images[i]" />
-      <label for="username">images[i]</label>
-    </p-floatLabel>
-    <p-button
-      label="Rem-Img"
-      (click)="removeImage(i)"
-      [outlined]="true"
-      severity="warning"
-    />
-  </div>
-  <p-button
-    label="Add-Img"
-    (click)="addImage()"
-    [outlined]="true"
-    severity="success"
-  />
-
-  <!--  -->
-  <div class="form-group" *ngFor="let review of product.reviews; let i = index">
-    <p-floatLabel>
-      <input pInputText id="feature" [(ngModel)]="product.reviews[i].user" />
-      <label for="username">review[i]</label>
-    </p-floatLabel>
-    <p-floatLabel>
-      <input pInputText id="feature" [(ngModel)]="product.reviews[i].rating" />
-      <label for="username">rating[i]</label>
-    </p-floatLabel>
-    <p-floatLabel>
-      <input pInputText id="feature" [(ngModel)]="product.reviews[i].comment" />
-      <label for="username">comment[i]</label>
-    </p-floatLabel>
-    <p-floatLabel>
-      <input pInputText id="feature" [(ngModel)]="product.reviews[i].date" />
-      <label for="username">date[i]</label>
-    </p-floatLabel>
-    <p-button
-      label="Rem-Review"
-      (click)="removeReview(i)"
-      [outlined]="true"
-      severity="warning"
-    />
-  </div>
-  <p-button
-    label="Add-Review"
-    (click)="addReview()"
-    [outlined]="true"
-    severity="success"
-  />
-  <!--  -->
-
-  <div class="form-group">
-    <div class="image-placeholder"></div>
-  </div>
-  <div class="form-group">
-    <p-button
-      label="Submit"
-      (click)="onSubmit()"
-      [text]="true"
-      [raised]="true"
-      severity="success"
-    />
-  </div>
-</div>
-
-<!-- </html> -->
-<!-- <div class="backgroundimage">
-  <div class="navbar">...</div>
-  <div class="inputformcontainer">
-    <form>
-      <div class="header">
-        <h1>Product Form</h1>
-      </div>
-      <div class="left-column">
-        <div class="form-group">
-          <label for="name">Name:</label>
-          <input
-            type="text"
-            id="name"
-            [(ngModel)]="product.name"
-            name="name"
-            placeholder="Product Name"
-          />
-        </div>
-
-        <div class="form-group">
-          <label for="brand">Brand:</label>
-          <input
-            type="text"
-            id="brand"
-            [(ngModel)]="product.brand"
-            name="brand"
-            placeholder="Brand Name"
-          />
-        </div>
-      </div>
-
-      <div class="right-column">
-        <div class="features-section">
-          <h2>Features:</h2>
-          <div *ngFor="let feature of product.features; let i = index">
-            <input
-              type="text"
-              [(ngModel)]="product.features[i]"
-              name="feature{{ i }}"
-              placeholder="Feature"
-            />
-            <button type="button" (click)="removeFeature(i)">Remove</button>
-          </div>
-          <button type="button" (click)="addFeature()">Add Feature</button>
-        </div>
-
-        <div class="images-section">
-          <h2>Images:</h2>
-          <div *ngFor="let image of product.images; let i = index">
-            <input
-              type="text"
-              [(ngModel)]="product.images[i]"
-              name="image{{ i }}"
-              placeholder="Image URL"
-            />
-            <button type="button" (click)="removeImage(i)">Remove</button>
-          </div>
-          <button type="button" (click)="addImage()">Add Image</button>
-        </div>
-
-        <div class="reviews-section">
-          <h2>Reviews:</h2>
-          <div *ngFor="let review of product.reviews; let i = index">
-            <div class="form-group">
-              <label for="user{{ i }}">User:</label>
-              <input
-                type="text"
-                id="user{{ i }}"
-                [(ngModel)]="product.reviews[i].user"
-                name="user{{ i }}"
-                placeholder="User Name"
-              />
-            </div>
-            <div class="form-group">
-              <label for="rating{{ i }}">Rating:</label>
-              <input
-                type="number"
-                id="rating{{ i }}"
-                [(ngModel)]="product.reviews[i].rating"
-                name="rating{{ i }}"
-                placeholder="Rating"
-              />
-            </div>
-            <div class="form-group">
-              <label for="comment{{ i }}">Comment:</label>
-              <input
-                type="text"
-                id="comment{{ i }}"
-                [(ngModel)]="product.reviews[i].comment"
-                name="comment{{ i }}"
-                placeholder="Comment"
-              />
-            </div>
-            <div class="form-group">
-              <label for="date{{ i }}">Date:</label>
-              <input
-                type="date"
-                id="date{{ i }}"
-                [(ngModel)]="product.reviews[i].date"
-                name="date{{ i }}"
-              />
-            </div>
-            <button type="button" (click)="removeReview(i)">
-              Remove Review
-            </button>
-          </div>
-          <button type="button" (click)="addReview()">Add Review</button>
-        </div>
-      </div>
-
-      <div class="submit-btn">
-        <button type="submit" (click)="onSubmit()">Submit</button>
-      </div>
-    </form>
-  </div>
-</div> -->
-<!-- <div class="bg-white p-6 rounded-lg shadow-lg">
-  <h2 class="text-2xl font-semibold mb-4">Product Form</h2>
-
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-    <div>
-      <label for="name" class="block text-gray-700">Name:</label>
+    <p-floatLabel class="p-floatLabel">
       <input
-        type="text"
-        class="w-full mt-2 p-2 border rounded-lg"
-        id="name"
-        [(ngModel)]="product.name"
-        placeholder="Product Name"
+        pInputText
+        id="id"
+        (keydown)="getEvent('id')"
+        [(ngModel)]="product.id"
       />
-    </div>
+      <label for="id">ID</label>
+    </p-floatLabel>
 
-    <div>
-      <label for="brand" class="block text-gray-700">Brand:</label>
+    <p-floatLabel class="p-floatLabel">
       <input
-        type="text"
-        class="w-full mt-2 p-2 border rounded-lg"
-        id="brand"
-        [(ngModel)]="product.brand"
-        placeholder="Brand Name"
+        pInputText
+        id="title"
+        (keydown)="getEvent('title')"
+        [(ngModel)]="product.title"
       />
-    </div>
+      <label for="title">Title</label>
+    </p-floatLabel>
 
-    <div class="col-span-2">
-      <h3 class="text-xl font-semibold mb-2">Features</h3>
-      <div
-        *ngFor="let feature of product.features; let i = index"
-        class="mb-2 flex"
-      >
+    <p-floatLabel class="p-floatLabel">
+      <input
+        pInputText
+        id="description"
+        (keydown)="getEvent('description')"
+        [(ngModel)]="product.description"
+      />
+      <label for="description">Description</label>
+    </p-floatLabel>
+
+    <p-floatLabel class="p-floatLabel">
+      <input
+        pInputText
+        id="category"
+        (keydown)="getEvent('category')"
+        [(ngModel)]="product.category"
+      />
+      <label for="category">Category</label>
+    </p-floatLabel>
+
+    <p-floatLabel class="p-floatLabel">
+      <input
+        pInputText
+        id="price"
+        (keydown)="getEvent('price')"
+        [(ngModel)]="product.price"
+      />
+      <label for="price">Price</label>
+    </p-floatLabel>
+
+    <p-floatLabel class="p-floatLabel">
+      <input
+        pInputText
+        id="discountPercentage"
+        (keydown)="getEvent('discountPercentage')"
+        [(ngModel)]="product.discountPercentage"
+      />
+      <label for="discountPercentage">Discount Percentage</label>
+    </p-floatLabel>
+
+    <p-floatLabel class="p-floatLabel">
+      <input
+        pInputText
+        id="rating"
+        (keydown)="getEvent('rating')"
+        [(ngModel)]="product.rating"
+      />
+      <label for="rating">Rating</label>
+    </p-floatLabel>
+
+    <p-floatLabel class="p-floatLabel">
+      <input
+        pInputText
+        id="stock"
+        (keydown)="getEvent('stock')"
+        [(ngModel)]="product.stock"
+      />
+      <label for="stock">Stock</label>
+    </p-floatLabel>
+
+    <!-- Tags -->
+    <div
+      class="form-group"
+      *ngFor="let tag of product.tags; let i = index; trackBy: trackByFn"
+    >
+      <p-floatLabel class="p-floatLabel" label="My Label">
         <input
-          type="text"
-          class="w-full p-2 border rounded-lg"
-          [(ngModel)]="product.features[i]"
-          placeholder="Feature"
+          pInputText
+          id="tag-{{ i }}"
+          (keydown)="getEvent('tag')"
+          [(ngModel)]="product.tags[i]"
+          placeholder="Tag"
         />
-        <button
-          type="button"
-          (click)="removeFeature(i)"
-          class="ml-2 bg-red-500 text-white p-2 rounded-lg"
-        >
-          Remove
-        </button>
-      </div>
-      <button
-        type="button"
-        (click)="addFeature()"
-        class="bg-green-500 text-white p-2 rounded-lg"
-      >
-        Add Feature
-      </button>
+        <label for="tag-{{ i }}">Tag</label>
+        <span class="input-icons">
+          <i
+            class="pi pi-plus"
+            (keydown)="addTag()"
+            style="cursor: pointer"
+          ></i>
+          <i
+            class="pi pi-times"
+            (keydown)="removeTag(i)"
+            style="cursor: pointer"
+          ></i>
+        </span>
+      </p-floatLabel>
     </div>
 
-    <div class="col-span-2">
-      <h3 class="text-xl font-semibold mb-2">Images</h3>
-      <div
-        *ngFor="let image of product.images; let i = index"
-        class="mb-2 flex"
-      >
+    <p-floatLabel class="p-floatLabel">
+      <input
+        pInputText
+        id="brand"
+        (keydown)="getEvent('brand')"
+        [(ngModel)]="product.brand"
+      />
+      <label for="brand">Brand</label>
+    </p-floatLabel>
+
+    <p-floatLabel class="p-floatLabel">
+      <input
+        pInputText
+        id="sku"
+        (keydown)="getEvent('sku')"
+        [(ngModel)]="product.sku"
+      />
+      <label for="sku">SKU</label>
+    </p-floatLabel>
+
+    <p-floatLabel class="p-floatLabel">
+      <input
+        pInputText
+        id="weight"
+        (keydown)="getEvent('weight')"
+        [(ngModel)]="product.weight"
+      />
+      <label for="weight">Weight</label>
+    </p-floatLabel>
+
+    <!-- Dimensions -->
+    <div class="form-group">
+      <p-floatLabel class="p-floatLabel">
         <input
-          type="text"
-          class="w-full p-2 border rounded-lg"
+          pInputText
+          id="width"
+          (keydown)="getEvent('width')"
+          [(ngModel)]="product.dimensions.width"
+        />
+        <label for="width">Width</label>
+      </p-floatLabel>
+
+      <p-floatLabel class="p-floatLabel">
+        <input
+          pInputText
+          id="height"
+          (keydown)="getEvent('height')"
+          [(ngModel)]="product.dimensions.height"
+        />
+        <label for="height">Height</label>
+      </p-floatLabel>
+
+      <p-floatLabel class="p-floatLabel">
+        <input
+          pInputText
+          id="depth"
+          (keydown)="getEvent('depth')"
+          [(ngModel)]="product.dimensions.depth"
+        />
+        <label for="depth">Depth</label>
+      </p-floatLabel>
+    </div>
+
+    <p-floatLabel class="p-floatLabel">
+      <input
+        pInputText
+        id="warrantyInformation"
+        (keydown)="getEvent('warrantyInformation')"
+        [(ngModel)]="product.warrantyInformation"
+      />
+      <label for="warrantyInformation">Warranty Information</label>
+    </p-floatLabel>
+
+    <p-floatLabel class="p-floatLabel">
+      <input
+        pInputText
+        id="shippingInformation"
+        (keydown)="getEvent('shippingInformation')"
+        [(ngModel)]="product.shippingInformation"
+      />
+      <label for="shippingInformation">Shipping Information</label>
+    </p-floatLabel>
+
+    <p-floatLabel class="p-floatLabel">
+      <input
+        pInputText
+        id="availabilityStatus"
+        (keydown)="getEvent('availabilityStatus')"
+        [(ngModel)]="product.availabilityStatus"
+      />
+      <label for="availabilityStatus">Availability Status</label>
+    </p-floatLabel>
+
+    <p-floatLabel class="p-floatLabel">
+      <input
+        pInputText
+        id="returnPolicy"
+        (keydown)="getEvent('returnPolicy')"
+        [(ngModel)]="product.returnPolicy"
+      />
+      <label for="returnPolicy">Return Policy</label>
+    </p-floatLabel>
+
+    <p-floatLabel class="p-floatLabel">
+      <input
+        pInputText
+        id="minimumOrderQuantity"
+        (keydown)="getEvent('minimumOrderQuantity')"
+        [(ngModel)]="product.minimumOrderQuantity"
+      />
+      <label for="minimumOrderQuantity">Minimum Order Quantity</label>
+    </p-floatLabel>
+
+    <div class="form-group">
+      <p-floatLabel class="p-floatLabel">
+        <input
+          pInputText
+          id="createdAt"
+          (keydown)="getEvent('createdAt')"
+          [(ngModel)]="product.meta.createdAt"
+        />
+        <label for="createdAt">Created At</label>
+      </p-floatLabel>
+
+      <p-floatLabel class="p-floatLabel">
+        <input
+          pInputText
+          id="updatedAt"
+          (keydown)="getEvent('updatedAt')"
+          [(ngModel)]="product.meta.updatedAt"
+        />
+        <label for="updatedAt">Updated At</label>
+      </p-floatLabel>
+
+      <p-floatLabel class="p-floatLabel">
+        <input
+          pInputText
+          id="barcode"
+          (keydown)="getEvent('barcode')"
+          [(ngModel)]="product.meta.barcode"
+        />
+        <label for="barcode">Barcode</label>
+      </p-floatLabel>
+
+      <p-floatLabel class="p-floatLabel">
+        <input
+          pInputText
+          id="qrCode"
+          (keydown)="getEvent('qrCode')"
+          [(ngModel)]="product.meta.qrCode"
+        />
+        <label for="qrCode">QR Code</label>
+      </p-floatLabel>
+    </div>
+
+    <p-floatLabel class="p-floatLabel">
+      <input
+        pInputText
+        id="thumbnail"
+        (keydown)="getEvent('thumbnail')"
+        [(ngModel)]="product.thumbnail"
+      />
+      <label for="thumbnail">Thumbnail</label>
+    </p-floatLabel>
+
+    <div
+      class="form-group"
+      *ngFor="let image of product.images; let i = index; trackBy: trackByFn"
+    >
+      <p-floatLabel class="p-floatLabel">
+        <input
+          pInputText
+          id="image-{{ i }}"
+          (keydown)="getEvent('image')"
           [(ngModel)]="product.images[i]"
           placeholder="Image URL"
         />
-        <button
-          type="button"
-          (click)="removeImage(i)"
-          class="ml-2 bg-red-500 text-white p-2 rounded-lg"
-        >
-          Remove
-        </button>
-      </div>
-      <button
-        type="button"
-        (click)="addImage()"
-        class="bg-green-500 text-white p-2 rounded-lg"
-      >
-        Add Image
-      </button>
+        <label for="image-{{ i }}">Image</label>
+        <span class="input-icons">
+          <i
+            class="pi pi-plus"
+            (keydown)="addImage()"
+            style="cursor: pointer"
+          ></i>
+          <i
+            class="pi pi-times"
+            (keydown)="removeImage(i)"
+            style="cursor: pointer"
+          ></i>
+        </span>
+      </p-floatLabel>
     </div>
 
-    <div class="col-span-2">
-      <h3 class="text-xl font-semibold mb-2">Reviews</h3>
-      <div *ngFor="let review of product.reviews; let i = index" class="mb-2">
-        <div class="flex">
-          <input
-            type="text"
-            class="w-full p-2 border rounded-lg"
-            [(ngModel)]="product.reviews[i].user"
-            placeholder="User Name"
-          />
-          <input
-            type="number"
-            class="w-full p-2 border rounded-lg ml-2"
-            [(ngModel)]="product.reviews[i].rating"
-            placeholder="Rating"
-          />
-          <input
-            type="text"
-            class="w-full p-2 border rounded-lg ml-2"
-            [(ngModel)]="product.reviews[i].comment"
-            placeholder="Comment"
-          />
-          <input
-            type="date"
-            class="w-full p-2 border rounded-lg ml-2"
-            [(ngModel)]="product.reviews[i].date"
-          />
-        </div>
-        <button
-          type="button"
-          (click)="removeReview(i)"
-          class="bg-red-500 text-white p-2 rounded-lg mt-2"
-        >
-          Remove Review
-        </button>
-      </div>
-      <button
-        type="button"
-        (click)="addReview()"
-        class="bg-green-500 text-white p-2 rounded-lg"
-      >
-        Add Review
-      </button>
+    <div
+      class="form-group"
+      *ngFor="let review of product.reviews; let i = index; trackBy: trackByFn"
+    >
+      <p-floatLabel class="p-floatLabel">
+        <input
+          pInputText
+          id="user-{{ i }}"
+          (keydown)="getEvent('user')"
+          [(ngModel)]="product.reviews[i].user"
+          placeholder="User Name"
+        />
+        <label for="user-{{ i }}">User</label>
+        <span class="input-icons">
+          <i
+            class="pi pi-plus"
+            (keydown)="addReview()"
+            style="cursor: pointer"
+          ></i>
+          <i
+            class="pi pi-times"
+            (keydown)="removeReview(i)"
+            style="cursor: pointer"
+          ></i>
+        </span>
+      </p-floatLabel>
+
+      <p-floatLabel class="p-floatLabel">
+        <input
+          pInputText
+          id="rating-{{ i }}"
+          (keydown)="getEvent('rating-{{i}}')"
+          [(ngModel)]="product.reviews[i].rating"
+          placeholder="Rating"
+        />
+        <label for="rating-{{ i }}">Rating</label>
+      </p-floatLabel>
+
+      <p-floatLabel class="p-floatLabel">
+        <input
+          pInputText
+          id="comment-{{ i }}"
+          (keydown)="getEvent('comment-{{i}}')"
+          [(ngModel)]="product.reviews[i].comment"
+          placeholder="Comment"
+        />
+        <label for="comment-{{ i }}">Comment</label>
+      </p-floatLabel>
+
+      <p-floatLabel class="p-floatLabel">
+        <input
+          pInputText
+          id="date-{{ i }}"
+          (keydown)="getEvent('date-{{i}}')"
+          [(ngModel)]="product.reviews[i].date"
+          placeholder="Date"
+        />
+        <label for="date-{{ i }}">Date</label>
+      </p-floatLabel>
+    </div>
+
+    <div class="form-group">
+      <p-button
+        label="Submit"
+        (keydown)="onSubmit()"
+        [text]="true"
+        severity="success"
+      />
     </div>
   </div>
-
- 
-  <div class="mt-6">
-    <button class="bg-blue-500 text-white p-4 rounded-lg" (click)="onSubmit()">
-      Submit
-    </button>
-  </div>
-</div> -->
-<!--  -->
+</div>
